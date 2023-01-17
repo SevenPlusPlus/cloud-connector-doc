@@ -7,7 +7,8 @@ echo "generate new docs"
 javadoc -d ./docs -encoding utf-8 -charset utf-8 -private -sourcepath /Users/sevenplus/workspace/cloud-connector-sdk/cloud-connector-sdk-core/src/main/java -subpackages com
 
 echo "commit change"
-git commit -m "new version" -a
+git add .
+git commit -m "new version"
 
 echo "push to remote repository"
 git push origin gh-pages
