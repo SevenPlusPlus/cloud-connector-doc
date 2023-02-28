@@ -3,6 +3,7 @@ com.youzan.cloud.connector.sdk.core.basic
 com.youzan.cloud.connector.sdk.core.enums
 com.youzan.cloud.connector.sdk.core.guide
 com.youzan.cloud.connector.sdk.core.guide.api
+com.youzan.cloud.connector.sdk.core.guide.message
 com.youzan.cloud.connector.sdk.core.item
 com.youzan.cloud.connector.sdk.core.item.enums
 com.youzan.cloud.connector.sdk.core.scrm
@@ -13,4 +14,5 @@ com.youzan.cloud.connector.sdk.core.trade
 com.youzan.cloud.connector.sdk.core.trade.basic
 com.youzan.cloud.connector.sdk.core.trade.enums
 com.youzan.cloud.connector.sdk.core.valuecard
+com.youzan.cloud.connector.sdk.core.valuecard.recharge
 com.youzan.cloud.connector.sdk.core.voucher
