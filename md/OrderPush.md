@@ -18,13 +18,13 @@ Yz paid trade triggered msg | TradePaidMsg | youzan paid order msg
 
 <table xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
     <colgroup>
-        <col style="white-space: normal;"/>
         <col style="white-space: normal;" />
         <col style="white-space: normal;" />
         <col style="white-space: normal;" />
         <col style="white-space: normal;" />
-        <col style="white-space: normal; width: 15%" />
-        <col style="white-space: normal; width: 15%" />
+        <col style="white-space: normal;" />
+        <col style="white-space: normal;" />
+        <col style="white-space: normal;" />
     </colgroup>
     <thead>
     <tr>
