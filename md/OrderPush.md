@@ -2,7 +2,7 @@ HTTP/1.1 200
 Content-Disposition: attachment; filename=scene.md
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 02 Mar 2023 08:11:57 GMT
+Date: Thu, 02 Mar 2023 08:33:16 GMT
 
 ## Push order to tripartite
 - 标识：OrderPush
@@ -24,13 +24,13 @@ Yz paid trade triggered msg | TradePaidMsg | youzan paid order msg
 
 <table xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
     <colgroup>
-        <col style="width: 10%" />
-        <col style="width: 20%" />
-        <col style="width: 20%" />
-        <col style="width: 10%" />
-        <col style="width: 10%" />
-        <col style="width: 15%" />
-        <col style="width: 15%" />
+        <col style="white-space: normal; width: 10%" />
+        <col style="white-space: normal; width: 20%" />
+        <col style="white-space: normal; width: 20%" />
+        <col style="white-space: normal; width: 10%" />
+        <col style="white-space: normal; width: 10%" />
+        <col style="white-space: normal; width: 15%" />
+        <col style="white-space: normal; width: 15%" />
     </colgroup>
     <thead>
     <tr>
