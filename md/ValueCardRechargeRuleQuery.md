@@ -1,1 +1,55 @@
-{"timestamp":"2023-03-13T10:57:38.182+0000","status":500,"error":"Internal Server Error","message":"非法的场景元信息","path":"/route/template/export/doc"}
+[toc]
+
+## 储值卡充值规则查询
+- 标识：ValueCardRechargeRuleQuery
+- 交换实体：com.youzan.cloud.connector.sdk.core.valuecard.ValueCardRechargeRuleEntity
+### 场景说明
+储值卡充值规则查询
+### 场景流程入口
+
+名称 | 标识 | 描述详情
+---|---|---
+储值卡充值规则查询扩展点 | ValueCardRechargeRuleQueryExt | 储值卡充值规则查询扩展点
+
+### 场景流程模板配置
+- 模板ID：ValueCardRechargeRuleTemplate
+- 模板类：com.youzan.cloud.connector.sdk.template.valuecard.ValueCardRechargeRuleTemplate
+- 模板参数类：com.youzan.cloud.connector.sdk.template.valuecard.ValueCardRechargeRuleTemplate$TemplateParameters
+
+#### 配置参数列表
+
+---
+##### tripartiteRuleQueryTemplateUri
+> 调用三方查询储值卡详情
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+三方自行实现储值充值规则查询流程
+```
+---
+##### yzValueCardRuleQueryTemplateUri
+> 有赞储值规则查询流程
+
+**参数为必填项**
+
+---
+##### customUserMapping
+> 自定义外部用户映射子流程EndpointUri
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+用户查询组件 UserMappingProvider
+```
+---
+##### customUserMappingFallback
+> 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
+
+**参数为必填项**
+
+

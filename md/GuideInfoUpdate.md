@@ -1,1 +1,39 @@
-{"timestamp":"2023-03-13T10:57:34.412+0000","status":500,"error":"Internal Server Error","message":"非法的场景元信息","path":"/route/template/export/doc"}
+[toc]
+
+## 导购档案更新
+- 标识：GuideInfoUpdate
+- 交换实体：com.youzan.cloud.connector.sdk.core.guide.GuideInfoExchangeEntity
+### 场景说明
+导购档案更新
+### 场景流程入口
+
+名称 | 标识 | 描述详情
+---|---|---
+导购档案更新 | GuideInfoUpdateMsg | 导购档案更新
+
+### 场景流程模板配置
+- 模板ID：GuideInfoUpdateRouteTemplate
+- 模板类：com.youzan.cloud.connector.sdk.template.guide.GuideInfoUpdateRouteTemplate
+- 模板参数类：com.youzan.cloud.connector.sdk.template.guide.GuideInfoUpdateRouteTemplate$TemplateParameters
+
+#### 配置参数列表
+
+---
+##### yzStandardUri
+> 导购档案更新 有赞标准模板
+
+**参数为必填项**
+
+---
+##### tripartiteGuideInfoUpdateUri
+> 三方导购档案更新 uri
+
+**参数为必填项**
+
+---
+##### customPreFilterPredicate
+> 自定义子流程EndpointUri：前置过滤逻辑
+
+**参数为必填项**
+
+

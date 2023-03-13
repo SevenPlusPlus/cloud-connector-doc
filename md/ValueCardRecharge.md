@@ -1,1 +1,72 @@
-{"timestamp":"2023-03-13T10:57:38.702+0000","status":500,"error":"Internal Server Error","message":"非法的场景元信息","path":"/route/template/export/doc"}
+[toc]
+
+## 储值卡充值
+- 标识：ValueCardRecharge
+- 交换实体：com.youzan.cloud.connector.sdk.core.valuecard.ValueCardRechargeExchangeEntity
+### 场景说明
+储值卡充值
+### 场景流程入口
+
+名称 | 标识 | 描述详情
+---|---|---
+储值卡充值 | ValueCardRechargeExt | 储值卡充值
+
+### 场景流程模板配置
+- 模板ID：ValueCardRechargeTemplate
+- 模板类：com.youzan.cloud.connector.sdk.template.valuecard.ValueCardRechargeTemplate
+- 模板参数类：com.youzan.cloud.connector.sdk.template.valuecard.ValueCardRechargeTemplate$TemplateParameters
+
+#### 配置参数列表
+
+---
+##### tripartiteValueCardRechargeTemplateUri
+> 调用三方储值卡充值
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+三方自行实现储值卡充值流程
+```
+---
+##### yzValueCardRechargeTemplateUri
+> 有赞充值流程
+
+**参数为必填项**
+
+---
+##### customUserRelationMapping
+> 自定义外部用户映射子流程EndpointUri
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+用户查询组件 UserMappingProvider
+```
+---
+##### customShopRelationMapping
+> 自定义外部店铺映射子流程EndpointUri
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+店铺查询组件 ShopMappingProvider
+```
+---
+##### customUserRelationMappingFallback
+> 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
+
+**参数为必填项**
+
+---
+##### customShopRelationMappingFallback
+> 自定义外部店铺获取不到时的FallBack策略子流程EndpointUri
+
+**参数为必填项**
+
+

@@ -1,1 +1,61 @@
-{"timestamp":"2023-03-13T10:57:38.391+0000","status":500,"error":"Internal Server Error","message":"非法的场景元信息","path":"/route/template/export/doc"}
+[toc]
+
+## 储值卡支付结果查询
+- 标识：ValueCardPayQuery
+- 交换实体：com.youzan.cloud.connector.sdk.core.valuecard.ValueCardPayExchangeEntity
+### 场景说明
+储值卡支付结果查询
+### 场景流程入口
+
+名称 | 标识 | 描述详情
+---|---|---
+储值卡支付结果查询 | ValueCardPayQueryExt | 储值卡支付结果查询
+
+### 场景流程模板配置
+- 模板ID：ValueCardPayQueryTemplate
+- 模板类：com.youzan.cloud.connector.sdk.template.valuecard.ValueCardPayQueryTemplate
+- 模板参数类：com.youzan.cloud.connector.sdk.template.valuecard.ValueCardPayQueryTemplate$TemplateParameters
+
+#### 配置参数列表
+
+---
+##### tripartiteValueCardPayQueryTemplateUri
+> 调用三方储值卡支付结果查询
+
+**参数为必填项**
+
+---
+##### yzValueCardPayQueryTemplateUri
+> 有赞储值卡支付流程
+
+**参数为必填项**
+
+---
+##### payFeeRelationMapping
+> 自定义外部店铺映射子流程EndpointUri
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+卡支付映射组件 ValueCardPayFeeRelationProvider
+```
+---
+##### payFeeRelationMappingFallback
+> 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
+
+**参数为必填项**
+
+---
+##### payResultQueryStrategy
+> 支付结果查询策略
+
+**默认值**: byResult
+
+可选值 | 选项描述
+---|---
+byResult | 三方有明确储值结果
+byRecord | 根据三方流水明细查询储值结果
+noResult | 三方不支持结果查询,则仅依赖 充值/支付/退款 操作记录判断结果
+
