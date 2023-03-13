@@ -1,0 +1,50 @@
+[toc]
+
+## 等级正向查询
+- 标识：LevelQuery
+- 交换实体：com.youzan.cloud.connector.sdk.core.scrm.LevelExchangeEntity
+### 场景说明
+等级正向查询
+### 场景流程入口
+
+名称 | 标识 | 描述详情
+---|---|---
+等级查询 | LevelQueryExt | 等级查询
+
+### 场景流程模板配置
+- 模板ID：LevelQueryRouteTemplate
+- 模板类：com.youzan.cloud.connector.sdk.template.scrm.level.LevelQueryRouteTemplate
+- 模板参数类：com.youzan.cloud.connector.sdk.template.scrm.level.LevelQueryRouteTemplate$TemplateParameters
+
+#### 配置参数列表
+
+---
+##### yzStandardUri
+> 等级正向查询有赞标准模板
+
+**参数为必填项**
+
+---
+##### queryLevelInfoUri
+> 
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+调用三方查询等级
+```
+---
+##### customUserMapping
+> 
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+自定义外部用户映射子流程EndpointUri
+或实现{@link com.youzan.cloud.connector.sdk.api.user.UserMappingProvider#byYzUser(com.youzan.cloud.connector.sdk.api.user.model.ByYzUserQryParam)}的组件名
+```
+

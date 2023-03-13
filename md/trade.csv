@@ -1,0 +1,7 @@
+OrderPush,推送订单
+OrderChangedNotify,订单状态修改通知推送
+OrderRefundPush,退款单推送
+CrmOrderPush,CRM外部订单创建
+CrmOrderRefund,CRM外部维权单创建
+CrmOrderExchange,CRM外部换货
+CrmOrderUnequalExchange,CRM外部单非等价换货

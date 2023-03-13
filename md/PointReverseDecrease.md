@@ -1,0 +1,51 @@
+[toc]
+
+## 积分逆向减少
+- 标识：PointReverseDecrease
+- 交换实体：com.youzan.cloud.connector.sdk.core.scrm.PointOperateExchangeEntity
+### 场景说明
+积分逆向减少
+### 场景流程入口
+
+名称 | 标识 | 描述详情
+---|---|---
+订阅消息：积分减少 | PointReverseDecreaseMsg | 订阅消息：积分减少
+积分减少回流 | PointReverseDecreaseBackflow | 积分减少回流
+积分减少接口调用 | PointReverseDecreaseRest | 积分减少接口调用
+
+### 场景流程模板配置
+- 模板ID：PointReverseDecreaseRouteTemplate
+- 模板类：com.youzan.cloud.connector.sdk.template.scrm.point.reverse.PointReverseDecreaseRouteTemplate
+- 模板参数类：com.youzan.cloud.connector.sdk.template.scrm.point.reverse.PointReverseDecreaseRouteTemplate$TemplateParameters
+
+#### 配置参数列表
+
+---
+##### tripartiteFetchOrderUri
+> 拉取三方积分（实现拉取积分变动记录并转换有赞标准交换实体的子流程）
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+拉取三方积分记录子流程模板EndpointUri或模板ID
+```
+---
+##### yzStandardUri
+> 有赞标准模板：积分逆向减少
+
+**参数为必填项**
+
+---
+##### customPreFilterPredicate
+> 自定义前置过滤
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+自定义前置过滤逻子流程EndpointUri 或 实现@link(com.youzan.cloud.connector.sdk.api.common.ExchangeFilterPredicate)的组件名
+```
+
