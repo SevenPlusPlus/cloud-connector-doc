@@ -1,6 +1,6 @@
 #!/bin/bash
 
-domain_list="trade scrm"
+domain_list="trade scrm guide stock item voucher valuecard"
 
 echo "## iPaaS标准场景开发对接文档" > README.md
 echo "" >> README.md

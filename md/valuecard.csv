@@ -1,0 +1,11 @@
+ValueCardListQuery,储值卡列表查询
+ValueCardDetailQuery,储值卡详情查询
+ValueCardRecordQuery,储值卡交易明细查询
+ValueCardRechargeRuleQuery,储值卡充值规则查询
+ValueCardPay,储值卡支付
+ValueCardPayQuery,储值卡支付结果查询
+ValueCardRefund,储值卡退款
+ValueCardRefundQuery,储值卡退款结果查询
+ValueCardRecharge,储值卡充值
+ValueCardRechargeQuery,储值卡充值结果查询
+ValueCardRechargeBonus,储值卡充值发放赠送金

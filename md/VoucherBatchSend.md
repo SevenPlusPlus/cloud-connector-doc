@@ -1,0 +1,57 @@
+[toc]
+
+## 批量券发放
+- 标识：VoucherBatchSend
+- 交换实体：com.youzan.cloud.connector.sdk.core.voucher.CouponOperateExchangeEntity
+### 场景说明
+批量券发放
+### 场景流程入口
+
+名称 | 标识 | 描述详情
+---|---|---
+批量发券消息 | VoucherBatchSendMsg | 批量发券消息
+批量发券扩展点 | VoucherBatchSendExt | 批量发券扩展点
+
+### 场景流程模板配置
+- 模板ID：VoucherBatchSendRouteTemplate
+- 模板类：com.youzan.cloud.connector.sdk.template.voucher.send.VoucherBatchSendRouteTemplate
+- 模板参数类：com.youzan.cloud.connector.sdk.template.voucher.send.VoucherBatchSendRouteTemplate$TemplateParameters
+
+#### 配置参数列表
+
+---
+##### yzVoucherBatchSendTemplateUri
+> 
+
+**参数为必填项**
+
+---
+##### tripartiteCouponSendTemplateUri
+> 
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+实现三方系统 单张发券操作，依赖数据从交换实体中获取
+```
+---
+##### customUserRelationMapping
+> 
+
+**参数为必填项**
+
+---
+##### customUserRelationMappingFallback
+> 
+
+**参数为必填项**
+
+---
+##### useThirdVoucherNo
+> 券码是否三方发券接口返回的券码
+
+**参数为必填项**
+
+

@@ -1,0 +1,56 @@
+[toc]
+
+## 券发放
+- 标识：VoucherSend
+- 交换实体：com.youzan.cloud.connector.sdk.core.voucher.CouponOperateExchangeEntity
+### 场景说明
+券发放
+### 场景流程入口
+
+名称 | 标识 | 描述详情
+---|---|---
+单个发券扩展点 | VoucherSendExt | 单个发券扩展点
+
+### 场景流程模板配置
+- 模板ID：VoucherSendRouteTemplate
+- 模板类：com.youzan.cloud.connector.sdk.template.voucher.send.VoucherSendRouteTemplate
+- 模板参数类：com.youzan.cloud.connector.sdk.template.voucher.send.VoucherSendRouteTemplate$TemplateParameters
+
+#### 配置参数列表
+
+---
+##### yzVoucherSendTemplateUri
+> 有赞发放 模板endPoint 模板Id
+
+**参数为必填项**
+
+---
+##### tripartiteCouponSendTemplateUri
+> 有赞发放 模板endPoint 模板Id
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+实现三方系统券发放操作，依赖数据从交换实体中获取
+```
+---
+##### useThirdVoucherNo
+> 券码是否三方发券接口返回的券码
+
+**参数为必填项**
+
+---
+##### customUserRelationMapping
+> 
+
+**参数为必填项**
+
+---
+##### customUserRelationMappingFallback
+> 
+
+**参数为必填项**
+
+

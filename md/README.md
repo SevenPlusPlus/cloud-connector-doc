@@ -100,3 +100,100 @@
 
 * [成长值逆向减少](GrowthReverseDecrease.md)
 
+### guide
+* [导购客户关系变更](GuideRelationChange.md)
+
+* [导购客户关系初始化对齐](GuideRelationDataConsistencyProcess.md)
+
+* [外部导购客户关系变更](OuterGuideRelationChange.md)
+
+* [开卡导购客户关系变更](GuideRelationForAccountOpeningChange.md)
+
+* [导购档案更新](GuideInfoUpdate.md)
+
+* [导购关联数据处理](GuideInfoSyncRelationDataProcess.md)
+
+* [导购档案初始化对齐](GuideInfoDataConsistencyProcess.md)
+
+* [外部导购档案更新](OuterGuideInfoUpdate.md)
+
+* [导购档案查询](OuterGuideInfoQuery.md)
+
+### stock
+* [定时任务拉取三方库存同步](StockPullFromTripartite.md)
+
+* [库存同步](StockSync.md)
+
+### item
+* [商品创建上行](outItemCreate.md)
+
+* [商品更新上行](outItemUpdate.md)
+
+* [商品同步上行](outItemSync.md)
+
+* [商品删除](ItemDelete.md)
+
+### voucher
+* [券列表查询](VoucherQuery.md)
+
+* [券详情查询](VoucherDetailQuery.md)
+
+* [券核销](VoucherVerify.md)
+
+* [券退还](VoucherRefund.md)
+
+* [券回收](VoucherRecycle.md)
+
+* [券禁用](VoucherDisuse.md)
+
+* [券发放](VoucherSend.md)
+
+* [批量券发放](VoucherBatchSend.md)
+
+* [有赞券模版同步到三方](VoucherActivityTemplateCreate.md)
+
+* [有赞券模版修改](VoucherActivityTemplateUpdate.md)
+
+* [优惠券逆向创建券模板活动REST](VoucherActivityCreateReverseRest.md)
+
+* [外部券模版查询](VoucherTemplateDetailQuery.md)
+
+* [可用券查询](AvailableVoucherQuery.md)
+
+* [外部券模版同步到有赞](ActivityTemplateSyncReverse.md)
+
+* [外部券核销至有赞](VoucherVerifyReverse.md)
+
+* [外部券退券至有赞](VoucherRefundReverse.md)
+
+* [外部券回收至有赞](VoucherRecycleReverse.md)
+
+* [外部券禁用至有赞](VoucherDisuseReverse.md)
+
+* [优惠券发放逆向](VoucherSendReverse.md)
+
+* [外部券操作同步至有赞](VoucherOperateReverse.md)
+
+### valuecard
+* [储值卡列表查询](ValueCardListQuery.md)
+
+* [储值卡详情查询](ValueCardDetailQuery.md)
+
+* [储值卡交易明细查询](ValueCardRecordQuery.md)
+
+* [储值卡充值规则查询](ValueCardRechargeRuleQuery.md)
+
+* [储值卡支付](ValueCardPay.md)
+
+* [储值卡支付结果查询](ValueCardPayQuery.md)
+
+* [储值卡退款](ValueCardRefund.md)
+
+* [储值卡退款结果查询](ValueCardRefundQuery.md)
+
+* [储值卡充值](ValueCardRecharge.md)
+
+* [储值卡充值结果查询](ValueCardRechargeQuery.md)
+
+* [储值卡充值发放赠送金](ValueCardRechargeBonus.md)
+

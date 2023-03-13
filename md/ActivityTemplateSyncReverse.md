@@ -1,0 +1,75 @@
+[toc]
+
+## 外部券模版同步到有赞
+- 标识：ActivityTemplateSyncReverse
+- 交换实体：com.youzan.cloud.connector.sdk.core.voucher.ActivityTemplateQueryExchangeEntity
+### 场景说明
+外部券模版同步到有赞
+### 场景流程入口
+
+名称 | 标识 | 描述详情
+---|---|---
+TSP拉取外部券模版 | OutTemplateSyncTimer | TSP拉取外部券模版
+外部券模版同步处理 | OutTemplateSyncMsg | 外部券模版同步处理
+
+### 场景流程模板配置
+- 模板ID：VoucherTemplateListQueryReverseTemplate
+- 模板类：com.youzan.cloud.connector.sdk.template.voucher.list.VoucherTemplateListQueryReverseTemplate
+- 模板参数类：com.youzan.cloud.connector.sdk.template.voucher.list.VoucherTemplateListQueryReverseTemplate$TemplateParameters
+
+#### 配置参数列表
+
+---
+##### yzVoucherTemplateListQueryReverseUri
+> 有赞券模版列表逆向标准流程模板EndpointUri或模板ID
+
+**参数为必填项**
+
+---
+##### tripartiteVoucherTemplateQueryUri
+> 外部三方根据标准交换实体同步查询券模版列表的子流程模板EndpointUri或模板ID
+
+**参数为必填项**
+
+
+**定制示例**:
+```
+实现三方系统券列表查询操作，依赖数据从交换实体中获取
+```
+---
+##### deleteVoucherAfterReverseSync
+> 不存在模版是否执行删除操作
+
+**参数为必填项**
+
+---
+##### disableOrDeleteWhenNonexistent
+> 不存在的模版执行删除or失效操作
+
+**参数为必填项**
+
+---
+##### applicableRuleConfig
+> 适用规则配置
+
+**参数为必填项**
+
+---
+##### needUpdateActivityTemplate
+> 是否需要更新券模版
+
+**参数为必填项**
+
+---
+##### customItemRelationMapping
+> 自定义商品映射子流程EndpointUri
+
+**参数为必填项**
+
+---
+##### customShopRelationMapping
+> 自定义外部店铺映射子流程EndpointUri
+
+**参数为必填项**
+
+
