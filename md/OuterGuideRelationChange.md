@@ -27,6 +27,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义子流程EndpointUri：前置过滤逻辑
@@ -35,6 +36,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreConverter
 > 自定义子流程EndpointUri：前置转换逻辑
@@ -43,4 +45,5 @@
 
 
 **是否允许自定义实现**: Y
+
 

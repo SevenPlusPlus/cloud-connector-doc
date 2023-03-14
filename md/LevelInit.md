@@ -27,6 +27,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### updateLevelInfoUri
 > 
@@ -35,6 +36,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -49,6 +51,7 @@
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 调用三方修改等级
@@ -61,6 +64,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -81,6 +85,7 @@ levelAlineRuleMergeYz | 等级对齐：以有赞为主，有赞为空则以三�
 levelAlineRuleMergeTripartite | 等级对齐：以三方为主，三方为空则以有赞等级对齐
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripLevelRuleStrategyUri
 > 有赞对应三方等级一对多时，选择策略
@@ -94,4 +99,5 @@ tripartiteLevelRuleValueLow | 三方等级排序，低的为主
 tripartiteLevelRuleValueHigh | 三方等级排序，高的为主
 
 **是否允许自定义实现**: Y
+
 

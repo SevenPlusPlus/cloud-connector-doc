@@ -26,6 +26,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### pointMergeRule
 > 积分正向初始化开关
@@ -38,6 +39,7 @@ disable | 不打通
 enable | 打通
 
 **是否允许自定义实现**: Y
+
 ---
 ##### pointReverseMergeRule
 > 积分逆向初始化开关
@@ -50,6 +52,7 @@ disable | 不打通
 enable | 打通
 
 **是否允许自定义实现**: Y
+
 ---
 ##### memberLevelMergeRule
 > 等级正向对齐开关
@@ -62,6 +65,7 @@ disable | 不打通
 enable | 打通
 
 **是否允许自定义实现**: Y
+
 ---
 ##### memberLevelReverseMergeRule
 > 等级逆向对齐对齐
@@ -74,6 +78,7 @@ disable | 不打通
 enable | 打通
 
 **是否允许自定义实现**: Y
+
 ---
 ##### growthMergeRule
 > 成长值正向初始化开关
@@ -86,6 +91,7 @@ disable | 不打通
 enable | 打通
 
 **是否允许自定义实现**: Y
+
 ---
 ##### growthReverseMergeRule
 > 成长值逆向初始化开关
@@ -98,6 +104,7 @@ disable | 不打通
 enable | 打通
 
 **是否允许自定义实现**: Y
+
 ---
 ##### shopGuideMergeRule
 > 导购对齐
@@ -110,4 +117,5 @@ disable | 不打通
 enable | 打通
 
 **是否允许自定义实现**: Y
+
 

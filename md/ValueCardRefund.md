@@ -27,6 +27,7 @@
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 三方自行实现储值卡退款流程
@@ -39,6 +40,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### yzValueCardRefundQueryTemplateUri
 > 有赞储值卡退款查询流程
@@ -47,6 +49,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customShopRelationMapping
 > 自定义外部店铺映射子流程EndpointUri
@@ -55,6 +58,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -69,6 +73,7 @@
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 店铺查询组件 ShopMappingProvider
@@ -81,6 +86,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPayFeeRelationMappingFallback
 > 自定义储值支付信息获取不到时的FallBack策略子流程EndpointUri
@@ -89,6 +95,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customEnrichCalcRefundAmount
 > 自定义订单扩展扩展子流程EndpointUri
@@ -97,6 +104,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### isConnectorCalc
 > 是否在有赞侧计算退款金额
@@ -109,4 +117,5 @@ true | 在有赞计算支付金额
 false | 不在有赞计算支付金额
 
 **是否允许自定义实现**: Y
+
 

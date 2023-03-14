@@ -26,6 +26,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义前置过滤
@@ -34,6 +35,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -47,6 +49,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteIncreaseGrowthUri
 > 外部三方根据标准交换实体"增加用户成长值"的子流程模板EndpointUri或模板ID
@@ -55,6 +58,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteDecreaseGrowthUri
 > 外部三方根据标准交换实体"减少用户成长值"的子流程模板EndpointUri或模板ID
@@ -63,6 +67,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### initGrowthRuleStrategyUri
 > 初始化成长值时，成长值处理规则
@@ -78,6 +83,7 @@ initGrowthRuleHigh | 取高的成长值
 initGrowthRuleCustom | 自定义成长值计算
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customGrowthCalculate
 > 自定义成长值计算计算（当initPointRuleStrategyUri选择StrategyValueEnum.INIT_GROWTH_RULE_CUSTOM.getSubRouteId()时实现）
@@ -86,6 +92,7 @@ initGrowthRuleCustom | 自定义成长值计算
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -105,6 +112,7 @@ growthRuleSingleYz | 单中心,以有赞为主
 growthRuleSingleTripartite | 单中心，以三方为主
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMapping
 > 自定义根据yzOpenId查询用户关联关系
@@ -113,6 +121,7 @@ growthRuleSingleTripartite | 单中心，以三方为主
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -130,4 +139,5 @@ allowNull | 允许不存在用户映射
 none | 不允许不存在用户映射
 
 **是否允许自定义实现**: Y
+
 

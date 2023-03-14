@@ -27,6 +27,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteCouponSendTemplateUri
 > 
@@ -35,6 +36,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -48,6 +50,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserRelationMappingFallback
 > 
@@ -56,6 +59,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### useThirdVoucherNo
 > 券码是否三方发券接口返回的券码
@@ -64,4 +68,5 @@
 
 
 **是否允许自定义实现**: Y
+
 

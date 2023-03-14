@@ -26,6 +26,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### updateCustomerShopRuleStrategyUri
 > 归属店铺映射不存在时处理策略
@@ -38,4 +39,5 @@ memberUpdateRootKdtId | 若归属店铺映射不存在，更新归属门店为�
 memberUpdateThrowException | 归属店铺映射不存在，抛出异常
 
 **是否允许自定义实现**: Y
+
 

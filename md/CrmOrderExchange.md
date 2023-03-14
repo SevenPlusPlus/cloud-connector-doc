@@ -26,6 +26,7 @@ CRM外部换货
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### yzStandardExchangeOuterOrderUri
 > 有赞换货标准模板
@@ -34,6 +35,7 @@ CRM外部换货
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 
@@ -42,6 +44,7 @@ CRM外部换货
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```

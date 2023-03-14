@@ -27,6 +27,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteMemberCreateUri
 > 
@@ -35,6 +36,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -49,6 +51,7 @@
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 三方会员修改子流程endpointUri
@@ -61,6 +64,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -78,6 +82,7 @@ initMemberInfoRuleMergeYz | 以有赞为主，有赞为空则以三方会员信�
 initMemberInfoRuleMergeTripartite | 以三方为主，三方为空则以有赞会员信息对齐
 
 **是否允许自定义实现**: Y
+
 ---
 ##### ascriptionShopOpenRule
 > 
@@ -91,6 +96,7 @@ enable | 打通
 是否打通 归属店铺、成为会员店铺
 
 **是否允许自定义实现**: Y
+
 ---
 ##### mappingNoneDefaultRootRule
 > 归属门店、成为会员店铺映射 不存在时，是否默认总店
@@ -103,6 +109,7 @@ disable | 不打通
 enable | 打通
 
 **是否允许自定义实现**: Y
+
 ---
 ##### maxMemberSourceNoneRetryTimes
 > 
@@ -111,6 +118,7 @@ enable | 打通
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -128,6 +136,7 @@ true | 是双中心（三方新增会员时会同步至有赞）
 false | 是单中心（三方新增会员时不会同步至有赞)
 
 **是否允许自定义实现**: Y
+
 ---
 ##### defaultMemberOutLevelAlias
 > 
@@ -136,6 +145,7 @@ false | 是单中心（三方新增会员时不会同步至有赞)
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
