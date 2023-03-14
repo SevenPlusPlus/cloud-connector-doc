@@ -24,16 +24,22 @@
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### tripartiteGuideInfoUpdateUri
 > 三方导购档案更新 uri
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### customPreFilterPredicate
 > 自定义子流程EndpointUri：前置过滤逻辑
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 

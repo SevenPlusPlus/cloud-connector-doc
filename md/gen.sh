@@ -13,7 +13,7 @@ do
     while IFS=',' read scene desc
     do
         # 在此处处理每行数据
-	curl -X GET -H "scene:$scene"  -H "Content-Type:application/json"  'http://10.215.53.173:7001/route/template/export/doc' > ${scene}.md
+	curl -X GET -H "scene:$scene"  -H "Content-Type:application/json"  'http://10.215.48.204:7001/route/template/export/doc' > ${scene}.md
 	echo "* [$desc](${scene}.md)" >> README.md
         echo "scene: ${desc} --> ${scene}"
 	echo "" >> README.md

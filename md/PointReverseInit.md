@@ -25,6 +25,8 @@
 **参数为必填项**
 
 
+**是否允许自定义实现**: Y
+
 **定制示例**:
 ```
 拉取三方积分记录子流程模板EndpointUri或模板ID
@@ -35,43 +37,55 @@
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### tripartiteGetPointUri
 > 外部三方根据标准交换实体"查询用户积分"的子流程模板EndpointUri或模板ID
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### tripartiteIncreasePointUri
 > 外部三方根据标准交换实体"增加用户积分"的子流程模板EndpointUri或模板ID
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### tripartiteDecreasePointUri
 > 外部三方根据标准交换实体"减少用户积分"的子流程模板EndpointUri或模板ID
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### initPointRuleStrategyUri
 > 初始化积分时，积分处理规则
 
 **默认值**: initPointRuleSum
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 initPointRuleSum | 三方和有赞积分累加
 initPointRuleTripartite | 使用三方积分
 initPointRuleYz | 使用有赞积分
 initPointRuleHigh | 取高的积分值
 initPointRuleCustom | 自定义积分计算
+
+**是否允许自定义实现**: Y
 ---
 ##### customPointCalculate
 > 自定义积分计算（当initPointRuleStrategyUri选择StrategyValueEnum.INIT_POINT_RULE_CUSTOM.getSubRouteId()时实现）
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 
 **定制示例**:
 ```
@@ -83,11 +97,13 @@ initPointRuleCustom | 自定义积分计算
 
 **默认值**: pointRuleDoubleTripartite
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 pointRuleDoubleTripartite | 双中心,以三方为主
 pointRuleDoubleYz | 双中心,以有赞为主
 pointRuleDoubleTripartite | 双中心,以三方为主
 pointRuleSingleYz | 单中心,以有赞为主
 pointRuleSingleTripartite | 单中心，以三方为主
+
+**是否允许自定义实现**: Y
 

@@ -25,12 +25,16 @@ TSP拉取外部券模版 | OutTemplateSyncTimer | TSP拉取外部券模版
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### tripartiteVoucherTemplateQueryUri
 > 外部三方根据标准交换实体同步查询券模版列表的子流程模板EndpointUri或模板ID
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 
 **定制示例**:
 ```
@@ -42,34 +46,46 @@ TSP拉取外部券模版 | OutTemplateSyncTimer | TSP拉取外部券模版
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### disableOrDeleteWhenNonexistent
 > 不存在的模版执行删除or失效操作
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### applicableRuleConfig
 > 适用规则配置
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### needUpdateActivityTemplate
 > 是否需要更新券模版
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### customItemRelationMapping
 > 自定义商品映射子流程EndpointUri
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### customShopRelationMapping
 > 自定义外部店铺映射子流程EndpointUri
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 

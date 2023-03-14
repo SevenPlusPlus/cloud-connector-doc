@@ -26,6 +26,8 @@
 **参数为必填项**
 
 
+**是否允许自定义实现**: Y
+
 **定制示例**:
 ```
 针对变更积分的流程是需要厂商实现拉取会员并转换有赞标准交换实体的子流程
@@ -37,22 +39,28 @@
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### memberInfoStrategyUri
 > 会员信息对齐策略(以三方为主，三方为空则以有赞会员信息对齐)
 
 **默认值**: initMemberInfoRuleMergeYz
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 initMemberInfoRuleMergeYz | 以有赞为主，有赞为空则以三方会员信息对齐
 initMemberInfoRuleMergeTripartite | 以三方为主，三方为空则以有赞会员信息对齐
+
+**是否允许自定义实现**: Y
 ---
 ##### memberReverseUpdateUri
 > 
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 
 **定制示例**:
 ```
@@ -64,28 +72,34 @@ initMemberInfoRuleMergeTripartite | 以三方为主，三方为空则以有赞�
 
 **默认值**: false
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 false | 否
 true | 是
+
+**是否允许自定义实现**: Y
 ---
 ##### ascriptionShopOpenRule
 > 是否打通 归属店铺、成为会员店铺
 
 **默认值**: disable
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 disable | 不打通
 enable | 打通
+
+**是否允许自定义实现**: Y
 ---
 ##### mappingNoneDefaultRootRule
 > 归属门店、成为会员店铺映射 不存在时，是否默认总店
 
 **默认值**: disable
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 disable | 否
 enable | 是
+
+**是否允许自定义实现**: Y
 

@@ -24,12 +24,16 @@
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### customPreFilterPredicate
 > 自定义前置过滤
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 
 **定制示例**:
 ```
@@ -41,24 +45,30 @@
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### pointRuleStrategyUri
 > 积分规则：单双中心，以哪方为主
 
 **默认值**: pointRuleDoubleTripartite
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 pointRuleDoubleTripartite | 双中心,以三方为主
 pointRuleDoubleYz | 双中心,以有赞为主
 pointRuleSingleYz | 单中心,以有赞为主
 pointRuleSingleTripartite | 单中心，以三方为主
+
+**是否允许自定义实现**: Y
 ---
 ##### customUserMapping
 > 自定义根据yzOpenId查询用户关联关系
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 
 **定制示例**:
 ```
@@ -70,8 +80,10 @@ pointRuleSingleTripartite | 单中心，以三方为主
 
 **默认值**: none
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 none | 不允许不存在用户映射
 allowNull | 允许不存在用户映射
+
+**是否允许自定义实现**: Y
 

@@ -25,6 +25,8 @@
 **参数为必填项**
 
 
+**是否允许自定义实现**: Y
+
 **定制示例**:
 ```
 拉取三方成长值记录子流程模板EndpointUri或模板ID
@@ -35,43 +37,55 @@
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### tripartiteGetGrowthUri
 > 外部三方根据标准交换实体"查询用户成长值"的子流程模板EndpointUri或模板ID
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### tripartiteIncreaseGrowthUri
 > 外部三方根据标准交换实体"增加用户成长值"的子流程模板EndpointUri或模板ID
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### tripartiteDecreaseGrowthUri
 > 外部三方根据标准交换实体"减少用户成长值"的子流程模板EndpointUri或模板ID
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### initGrowthRuleStrategyUri
 > 初始化成长值时，成长值处理规则
 
 **默认值**: initGrowthRuleSum
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 initGrowthRuleSum | 三方和有赞成长值累加
 initGrowthRuleTripartite | 使用三方成长值
 initGrowthRuleYz | 使用有赞成长值
 initGrowthRuleHigh | 取高的成长值
 initGrowthRuleCustom | 自定义成长值计算
+
+**是否允许自定义实现**: Y
 ---
 ##### customGrowthCalculate
 > 自定义成长值计算计算（当initPointRuleStrategyUri选择StrategyValueEnum.INIT_GROWTH_RULE_CUSTOM.getSubRouteId()时实现）
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 
 **定制示例**:
 ```
@@ -83,10 +97,12 @@ initGrowthRuleCustom | 自定义成长值计算
 
 **默认值**: growthRuleDoubleTripartite
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 growthRuleDoubleTripartite | 双中心,以三方为主
 growthRuleDoubleYz | 双中心,以有赞为主
 growthRuleSingleYz | 单中心,以有赞为主
 growthRuleSingleTripartite | 单中心，以三方为主
+
+**是否允许自定义实现**: Y
 

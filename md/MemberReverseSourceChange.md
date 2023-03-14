@@ -24,14 +24,18 @@
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### updateCustomerShopRuleStrategyUri
 > 归属店铺映射不存在时处理策略
 
 **默认值**: memberUpdateRootKdtId
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 memberUpdateRootKdtId | 若归属店铺映射不存在，更新归属门店为总店
 memberUpdateThrowException | 归属店铺映射不存在，抛出异常
+
+**是否允许自定义实现**: Y
 

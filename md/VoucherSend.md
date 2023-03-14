@@ -24,12 +24,16 @@
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### tripartiteCouponSendTemplateUri
 > 有赞发放 模板endPoint 模板Id
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 
 **定制示例**:
 ```
@@ -41,16 +45,22 @@
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### customUserRelationMapping
 > 
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### customUserRelationMappingFallback
 > 
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 

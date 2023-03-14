@@ -24,25 +24,31 @@
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### tripartiteGuideInfoQueryUri
 > 外部三方根据标准交换实体 导购档案查询 的子流程模板EndpointUri或模板ID
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### tripartiteGuideInfoUpdateUri
 > 外部三方根据标准交换实体 导购档案更新 的子流程模板EndpointUri或模板ID
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### defaultAlignmentStrategy
 > 
 
 **默认值**: TRIPARTITE_MERGE
 
-可选值 | 选项描述
+已支持的参数值 | 值含义说明
 ---|---
 TRIPARTITE_MERGE | 双方都有数据或都无数据时以三方为准，否则以有数据的一方为准【默认值】
 YOUZAN_FORCE | 强制以有赞为准，null 也会覆盖
@@ -50,4 +56,6 @@ YOUZAN_MERGE | 双方都有数据或都无数据时以有赞为准，否则以�
 YOUZAN_CHANNEL | 双方都有数据或都无数据时以有赞为准，其它以数据链路源头为准（下行以有赞为准、上行以三方为准）
 TRIPARTITE_FORCE | 强制以三方为准，null 也会覆盖
 TRIPARTITE_CHANNEL | 双方都有数据或都无数据时以三方为准，其它以数据链路源头为准（下行以有赞为准、上行以三方为准）
+
+**是否允许自定义实现**: Y
 

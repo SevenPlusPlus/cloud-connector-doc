@@ -24,18 +24,24 @@ CRM外部换货
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### yzStandardExchangeOuterOrderUri
 > 有赞换货标准模板
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 ---
 ##### customPreFilterPredicate
 > 
 
 **参数为必填项**
 
+
+**是否允许自定义实现**: Y
 
 **定制示例**:
 ```
