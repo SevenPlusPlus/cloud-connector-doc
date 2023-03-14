@@ -22,33 +22,38 @@ CRM外部换货
 ##### tripartiteFetchOrderUri
 > 三方订单获取子流程EndpointURI或子流程模板参数
 
-**参数为必填项**
+**默认值**: bean:emptyProducer?method=process
 
+已支持的参数值 | 值含义说明
+---|---
+bean:emptyProducer?method=process | Mock空实现，标准逆向API调用时不需要实现
 
 **是否允许自定义实现**: Y
-
 ---
 ##### yzStandardExchangeOuterOrderUri
 > 有赞换货标准模板
 
-**参数为必填项**
+**默认值**: CrmOrderExchangeYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+CrmOrderExchangeYzTemplate-alpha | 有赞换货标准流程实现alpha版本
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customPreFilterPredicate
-> 
+> 自定义子流程EndpointUri：前置过滤逻辑
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 没有实现，不做处理，预留扩展
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
-自定义子流程EndpointUri：前置过滤逻辑
-或实现@link(com.youzan.cloud.connector.sdk.api.common.ExchangeFilterPredicate)的组件名
+实现@link(com.youzan.cloud.connector.sdk.api.common.ExchangeFilterPredicate)的组件名
 ```
 

@@ -22,20 +22,24 @@
 ##### yzStandardUri
 > 有赞标准模板：积分逆向查询
 
-**参数为必填项**
+**默认值**: PointReverseQueryTemplateYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+PointReverseQueryTemplateYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customPreFilterPredicate
 > 自定义前置过滤
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```

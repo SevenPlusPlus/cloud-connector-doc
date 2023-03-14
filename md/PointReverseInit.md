@@ -22,11 +22,13 @@
 ##### tripartiteFetchOrderUri
 > 拉取三方积分（实现拉取积分变动记录并转换有赞标准交换实体的子流程）
 
-**参数为必填项**
+**默认值**: bean:emptyProducer?method=process
 
+已支持的参数值 | 值含义说明
+---|---
+bean:emptyProducer?method=process | 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -36,11 +38,13 @@
 ##### yzStandardUri
 > 有赞标准模板：积分逆向初始化
 
-**参数为必填项**
+**默认值**: PointReverseInitTemplateYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+PointReverseInitTemplateYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### tripartiteGetPointUri
 > 外部三方根据标准交换实体"查询用户积分"的子流程模板EndpointUri或模板ID
@@ -49,7 +53,6 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### tripartiteIncreasePointUri
 > 外部三方根据标准交换实体"增加用户积分"的子流程模板EndpointUri或模板ID
@@ -58,7 +61,6 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### tripartiteDecreasePointUri
 > 外部三方根据标准交换实体"减少用户积分"的子流程模板EndpointUri或模板ID
@@ -67,7 +69,6 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### initPointRuleStrategyUri
 > 初始化积分时，积分处理规则
@@ -83,16 +84,17 @@ initPointRuleHigh | 取高的积分值
 initPointRuleCustom | 自定义积分计算
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customPointCalculate
 > 自定义积分计算（当initPointRuleStrategyUri选择StrategyValueEnum.INIT_POINT_RULE_CUSTOM.getSubRouteId()时实现）
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -113,5 +115,26 @@ pointRuleSingleYz | 单中心,以有赞为主
 pointRuleSingleTripartite | 单中心，以三方为主
 
 **是否允许自定义实现**: Y
+---
+##### customUserMapping
+> 自定义外部用户映射子流程EndpointUri
 
+**默认值**: bean:userMappingProviderImpl?method=byOutUser
+
+已支持的参数值 | 值含义说明
+---|---
+bean:userMappingProviderImpl?method=byOutUser | 
+
+**是否允许自定义实现**: Y
+---
+##### customUserMappingFallback
+> 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
+
+**默认值**: none
+
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务逻辑处理
+
+**是否允许自定义实现**: Y
 

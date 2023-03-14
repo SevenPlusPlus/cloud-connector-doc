@@ -22,11 +22,13 @@
 ##### yzStandardUri
 > 会员归属店铺修改模版
 
-**参数为必填项**
+**默认值**: memberSourceChangeSceneYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+memberSourceChangeSceneYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### tripartiteMemberSourceChangeUri
 > 
@@ -35,7 +37,6 @@
 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -53,5 +54,4 @@ disable | 不打通
 enable | 打通
 
 **是否允许自定义实现**: Y
-
 

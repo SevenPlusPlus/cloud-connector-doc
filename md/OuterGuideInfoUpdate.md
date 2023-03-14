@@ -23,27 +23,33 @@
 ##### yzStandardUri
 > 导购档案更新 有赞标准模板
 
-**参数为必填项**
+**默认值**: OuterGuideInfoUpdateYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+OuterGuideInfoUpdateYzTemplate-alpha | 外部导购档案更新有赞标准模板
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customPreFilterPredicate
 > 自定义子流程EndpointUri：前置过滤逻辑
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customPreConverter
 > 自定义子流程EndpointUri：前置转换逻辑
 
-**参数为必填项**
+**默认值**: bean:emptyProducer?method=process
 
+已支持的参数值 | 值含义说明
+---|---
+bean:emptyProducer?method=process | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
-
 

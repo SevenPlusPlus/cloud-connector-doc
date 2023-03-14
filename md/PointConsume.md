@@ -22,20 +22,24 @@
 ##### yzStandardUri
 > 有赞标准模板：积分正向消耗
 
-**参数为必填项**
+**默认值**: PointConsumeTemplateYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+PointConsumeTemplateYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customPreFilterPredicate
 > 自定义前置过滤
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -49,7 +53,6 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### pointRuleStrategyUri
 > 积分规则：单双中心，以哪方为主
@@ -64,16 +67,17 @@ pointRuleSingleYz | 单中心,以有赞为主
 pointRuleSingleTripartite | 单中心，以三方为主
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customUserMapping
 > 自定义根据yzOpenId查询用户关联关系
 
-**参数为必填项**
+**默认值**: bean:userMappingProviderImpl?method=byYzUser
 
+已支持的参数值 | 值含义说明
+---|---
+bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -91,5 +95,4 @@ none | 不允许不存在用户映射
 allowNull | 允许不存在用户映射
 
 **是否允许自定义实现**: Y
-
 

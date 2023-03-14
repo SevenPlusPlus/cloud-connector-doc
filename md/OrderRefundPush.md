@@ -26,11 +26,13 @@
 ##### yzPushRefundOrderUri
 > 有赞同步维权单标准流程模板EndpointUri或模板ID
 
-**参数为必填项**
+**默认值**: RefundOrderCreateYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+RefundOrderCreateYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### tripartiteCreateRefundOrderUri
 > 外部三方根据标准交换实体同步创建外部维权单的子流程模板EndpointUri或模板ID
@@ -39,16 +41,17 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customShopRelationMapping
 > 
 
-**参数为必填项**
+**默认值**: bean:shopMappingProviderImpl?method=byYzShop
 
+已支持的参数值 | 值含义说明
+---|---
+bean:shopMappingProviderImpl?method=byYzShop | 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -59,11 +62,13 @@
 ##### customShopRelationMappingFallback
 > 
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -75,11 +80,13 @@
 ##### customUserMapping
 > 
 
-**参数为必填项**
+**默认值**: bean:userMappingProviderImpl?method=byYzUser
 
+已支持的参数值 | 值含义说明
+---|---
+bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -90,11 +97,13 @@
 ##### customUserMappingFallback
 > 
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -114,16 +123,17 @@ enable | 是
 disable | 否
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customPreFilterPredicate
 > 
 
-**参数为必填项**
+**默认值**: orderRefundStandardPreFilterPredicate
 
+已支持的参数值 | 值含义说明
+---|---
+orderRefundStandardPreFilterPredicate | 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -134,15 +144,30 @@ disable | 否
 ##### customEnrichOrderItemMapping
 > 
 
-**参数为必填项**
+**默认值**: enable
 
+已支持的参数值 | 值含义说明
+---|---
+enable | 
+disable | 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
 自定义外部子订单映射子流程EndpointUri
 或实现{@link com.youzan.cloud.connector.sdk.api.order.SubOrderMappingProvider#byYzOid(ByYzOidQryParam)}的组件名
 ```
+---
+##### duplicatedValidate
+> 指定是否启用幂等校验
+
+**默认值**: enable
+
+已支持的参数值 | 值含义说明
+---|---
+enable | 
+disable | 
+
+**是否允许自定义实现**: Y
 

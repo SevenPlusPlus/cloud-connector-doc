@@ -23,11 +23,13 @@
 ##### tripartiteFetchOrderUri
 > 
 
-**参数为必填项**
+**默认值**: mock:doNothing
 
+已支持的参数值 | 值含义说明
+---|---
+mock:doNothing | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -38,11 +40,13 @@
 ##### yzStandardUri
 > 会员逆向创建模版
 
-**参数为必填项**
+**默认值**: memberReverseCreateSceneYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+memberReverseCreateSceneYzTemplate-alpha | 会员逆向创建模版
 
 **是否允许自定义实现**: Y
-
 ---
 ##### memberInfoStrategyUri
 > 会员信息对齐策略(以三方为主，三方为空则以有赞会员信息对齐)
@@ -55,7 +59,6 @@ initMemberInfoRuleMergeYz | 以有赞为主，有赞为空则以三方会员信�
 initMemberInfoRuleMergeTripartite | 以三方为主，三方为空则以有赞会员信息对齐
 
 **是否允许自定义实现**: Y
-
 ---
 ##### memberReverseUpdateUri
 > 
@@ -64,7 +67,6 @@ initMemberInfoRuleMergeTripartite | 以三方为主，三方为空则以有赞�
 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -82,7 +84,6 @@ false | 否
 true | 是
 
 **是否允许自定义实现**: Y
-
 ---
 ##### ascriptionShopOpenRule
 > 是否打通 归属店铺、成为会员店铺
@@ -95,7 +96,6 @@ disable | 不打通
 enable | 打通
 
 **是否允许自定义实现**: Y
-
 ---
 ##### mappingNoneDefaultRootRule
 > 归属门店、成为会员店铺映射 不存在时，是否默认总店
@@ -108,5 +108,4 @@ disable | 否
 enable | 是
 
 **是否允许自定义实现**: Y
-
 

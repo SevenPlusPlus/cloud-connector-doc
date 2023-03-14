@@ -22,9 +22,11 @@
 ##### yzStandardUri
 > 导购档案更新 有赞标准模板
 
-**参数为必填项**
+**默认值**: OuterGuideInfoQueryYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+OuterGuideInfoQueryYzTemplate-alpha | 导购档案更新有赞标准模版
 
 **是否允许自定义实现**: Y
-
 

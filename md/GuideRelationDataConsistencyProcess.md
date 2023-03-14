@@ -26,11 +26,13 @@
 ##### yzStandardUri
 > 导购客户关系数据一致性处理 有赞标准模板
 
-**参数为必填项**
+**默认值**: GuideRelationDataConsistencyProcessYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+GuideRelationDataConsistencyProcessYzTemplate-alpha | 导购档案初始化流程
 
 **是否允许自定义实现**: Y
-
 ---
 ##### tripartiteGuideRelationQueryUri
 > 外部三方根据标准交换实体 导购客户关系查询 的子流程模板EndpointUri或模板ID
@@ -39,7 +41,6 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### tripartiteGuideRelationUpdateUri
 > 外部三方根据标准交换实体 导购客户关系更新 的子流程模板EndpointUri或模板ID
@@ -48,7 +49,6 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### defaultAlignmentStrategy
 > 
@@ -65,14 +65,15 @@ TRIPARTITE_FORCE | 强制以三方为准，null 也会覆盖
 TRIPARTITE_CHANNEL | 双方都有数据或都无数据时以三方为准，其它以数据链路源头为准（下行以有赞为准、上行以三方为准）
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customPreFilterPredicate
 > 自定义子流程EndpointUri：前置过滤逻辑
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
-
 

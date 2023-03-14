@@ -22,29 +22,35 @@ CRM外部单非等价换货
 ##### tripartiteFetchOrderUri
 > 三方订单获取子流程EndpointURI或子流程模板参数
 
-**参数为必填项**
+**默认值**: bean:emptyProducer?method=process
 
+已支持的参数值 | 值含义说明
+---|---
+bean:emptyProducer?method=process | Mock空实现
 
 **是否允许自定义实现**: Y
-
 ---
 ##### yzStandardUnequalExchangeOuterOrderUri
 > 非等价换货有赞标准模板
 
-**参数为必填项**
+**默认值**: CrmOrderUnequalExchangeYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+CrmOrderUnequalExchangeYzTemplate-alpha | 有赞非等价换货流程实现alpha版本
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customPreFilterPredicate
 > 
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 没有实现，不做处理，预留扩展
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -55,18 +61,22 @@ CRM外部单非等价换货
 ##### subRefundOrderUri
 > 退款uri
 
-**参数为必填项**
+**默认值**: CrmOrderRefund
 
+已支持的参数值 | 值含义说明
+---|---
+CrmOrderRefund | 退款子流程
 
 **是否允许自定义实现**: Y
-
 ---
 ##### subCreateOrderUri
 > 下单uri
 
-**参数为必填项**
+**默认值**: CrmOrderPush
 
+已支持的参数值 | 值含义说明
+---|---
+CrmOrderPush | 同步创建订单子流程
 
 **是否允许自定义实现**: Y
-
 

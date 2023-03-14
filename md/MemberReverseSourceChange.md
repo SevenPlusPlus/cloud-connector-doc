@@ -22,11 +22,13 @@
 ##### yzStandardUri
 > 逆向修改归属店铺
 
-**参数为必填项**
+**默认值**: memberReverseSourceChangeSceneYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+memberReverseSourceChangeSceneYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### updateCustomerShopRuleStrategyUri
 > 归属店铺映射不存在时处理策略
@@ -39,5 +41,4 @@ memberUpdateRootKdtId | 若归属店铺映射不存在，更新归属门店为�
 memberUpdateThrowException | 归属店铺映射不存在，抛出异常
 
 **是否允许自定义实现**: Y
-
 

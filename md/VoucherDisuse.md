@@ -26,7 +26,6 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### tripartiteVoucherDisuseUri
 > 外部三方 禁用券 子流程模板ID
@@ -35,7 +34,6 @@
 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -49,68 +47,82 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customUserMapping
 > 自定义外部用户映射子流程EndpointUri
 
-**参数为必填项**
+**默认值**: bean:userMappingProviderImpl?method=byYzUser
 
+已支持的参数值 | 值含义说明
+---|---
+bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customUserMappingFallback
 > 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customCouponRelationMapping
 > 自定义优惠券映射子流程EndpointUri
 
-**参数为必填项**
+**默认值**: bean:couponMappingProviderImpl?method=byOutCouponInfo
 
+已支持的参数值 | 值含义说明
+---|---
+bean:couponMappingProviderImpl?method=byOutCouponInfo | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customActivityRelationMapping
 > 自定义优惠券活动映射子流程EndpointUri
 
-**参数为必填项**
+**默认值**: bean:activityMappingProviderImpl?method=query
 
+已支持的参数值 | 值含义说明
+---|---
+bean:activityMappingProviderImpl?method=query | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customShopRelationMapping
 > 自定义外部店铺映射子流程EndpointUri
 
-**参数为必填项**
+**默认值**: bean:shopMappingProviderImpl?method=byYzShop
 
+已支持的参数值 | 值含义说明
+---|---
+bean:shopMappingProviderImpl?method=byYzShop | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customShopRelationMappingFallback
 > 自定义外部店铺获取不到时的FallBack策略子流程EndpointUri
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
-
 ---
 ##### isMigrate
 > 是否为迁移店铺，会跳过对coupon_operate_record的校验
 
-**参数为必填项**
+**默认值**: false
 
+已支持的参数值 | 值含义说明
+---|---
+false | 否
+true | 是
 
 **是否允许自定义实现**: Y
-
 

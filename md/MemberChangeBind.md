@@ -20,22 +20,26 @@
 
 ---
 ##### yzStandardUri
-> 
+> 会员换绑模版
 
-**参数为必填项**
+**默认值**: memberChangeBindSceneYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+memberChangeBindSceneYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customPreFilterPredicate
 > 
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -46,11 +50,13 @@
 ##### memberUnbindPredicate
 > 
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -60,11 +66,13 @@
 ##### memberChangePredicate
 > 
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```

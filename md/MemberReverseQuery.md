@@ -20,11 +20,13 @@
 
 ---
 ##### yzStandardUri
-> 
+> 逆向会员查询
 
-**参数为必填项**
+**默认值**: memberReverseQuerySceneYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+memberReverseQuerySceneYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
-
 

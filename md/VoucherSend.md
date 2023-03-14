@@ -26,7 +26,6 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### tripartiteCouponSendTemplateUri
 > 有赞发放 模板endPoint 模板Id
@@ -36,7 +35,6 @@
 
 **是否允许自定义实现**: Y
 
-
 **定制示例**:
 ```
 实现三方系统券发放操作，依赖数据从交换实体中获取
@@ -45,27 +43,33 @@
 ##### useThirdVoucherNo
 > 券码是否三方发券接口返回的券码
 
-**参数为必填项**
+**默认值**: true
 
+已支持的参数值 | 值含义说明
+---|---
+true | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customUserRelationMapping
 > 
 
-**参数为必填项**
+**默认值**: bean:userMappingProviderImpl?method=byYzUser
 
+已支持的参数值 | 值含义说明
+---|---
+bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customUserRelationMappingFallback
 > 
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
-
 

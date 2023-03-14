@@ -27,7 +27,6 @@
 
 **是否允许自定义实现**: Y
 
-
 **定制示例**:
 ```
 三方自行实现储值卡退款查询流程
@@ -40,25 +39,28 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### refundRelationMapping
 > 自定义外部店铺映射子流程EndpointUri
 
-**参数为必填项**
+**默认值**: bean:valueCardRefundRelationProviderImpl?method=getByRefundDetailNo
 
+已支持的参数值 | 值含义说明
+---|---
+bean:valueCardRefundRelationProviderImpl?method=getByRefundDetailNo | 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### refundRelationMappingFallback
 > 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
-
 ---
 ##### refundResultQueryStrategy
 > 退款结果查询策略
@@ -72,5 +74,4 @@ byRecord | 根据三方流水明细查询储值结果
 noResult | 三方不支持结果查询,则仅依赖 充值/支付/退款 操作记录判断结果
 
 **是否允许自定义实现**: Y
-
 

@@ -27,7 +27,6 @@
 
 **是否允许自定义实现**: Y
 
-
 **定制示例**:
 ```
 三方自行实现储值卡支付流程
@@ -41,7 +40,6 @@
 
 **是否允许自定义实现**: Y
 
-
 **定制示例**:
 ```
 三方自行实现储值卡支付卡查询流程
@@ -54,16 +52,17 @@
 
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customUserRelationMapping
 > 自定义外部用户映射子流程EndpointUri
 
-**参数为必填项**
+**默认值**: bean:userMappingProviderImpl?method=byYzUser
 
+已支持的参数值 | 值含义说明
+---|---
+bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -73,11 +72,13 @@
 ##### customShopRelationMapping
 > 自定义外部店铺映射子流程EndpointUri
 
-**参数为必填项**
+**默认值**: bean:shopMappingProviderImpl?method=byYzShop
 
+已支持的参数值 | 值含义说明
+---|---
+bean:shopMappingProviderImpl?method=byYzShop | 
 
 **是否允许自定义实现**: Y
-
 
 **定制示例**:
 ```
@@ -87,20 +88,24 @@
 ##### customUserRelationMappingFallback
 > 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
-
 ---
 ##### customShopRelationMappingFallback
 > 自定义外部店铺获取不到时的FallBack策略子流程EndpointUri
 
-**参数为必填项**
+**默认值**: none
 
+已支持的参数值 | 值含义说明
+---|---
+none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
-
 ---
 ##### isConnectorCalc
 > 是否在有赞侧计算支付金额
@@ -112,5 +117,4 @@
 true | 是否在有赞计算支付金额
 
 **是否允许自定义实现**: Y
-
 
