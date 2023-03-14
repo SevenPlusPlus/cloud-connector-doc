@@ -27,6 +27,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteCouponSendTemplateUri
 > 
@@ -35,6 +36,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -51,6 +53,7 @@
 bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserRelationMappingFallback
 > 
@@ -62,6 +65,7 @@ bean:userMappingProviderImpl?method=byYzUser |
 none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
+
 ---
 ##### useThirdVoucherNo
 > 券码是否三方发券接口返回的券码
@@ -74,4 +78,5 @@ true |
 false | 
 
 **是否允许自定义实现**: Y
+
 

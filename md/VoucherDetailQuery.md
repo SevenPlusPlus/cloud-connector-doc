@@ -26,6 +26,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteVoucherDetailQueryUri
 > 外部三方 根据标准交换实体 同步查询券详情 的子流程模板EndpointUri或模板ID
@@ -34,6 +35,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -50,6 +52,7 @@
 bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMappingFallback
 > 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
@@ -61,4 +64,5 @@ bean:userMappingProviderImpl?method=byYzUser |
 none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
+
 

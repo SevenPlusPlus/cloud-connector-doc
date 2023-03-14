@@ -26,6 +26,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteVoucherTemplateDetailQueryUri
 > 外部三方 根据标准交换实体 同步查询券模版详情 的子流程模板EndpointUri或模板ID
@@ -34,6 +35,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```

@@ -29,6 +29,7 @@
 PointConsumeTemplateYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义前置过滤
@@ -40,6 +41,7 @@ PointConsumeTemplateYzTemplate-alpha |
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -53,6 +55,7 @@ none | 无业务逻辑处理
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### pointRuleStrategyUri
 > 积分规则：单双中心，以哪方为主
@@ -67,6 +70,7 @@ pointRuleSingleYz | 单中心,以有赞为主
 pointRuleSingleTripartite | 单中心，以三方为主
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMapping
 > 自定义根据yzOpenId查询用户关联关系
@@ -78,6 +82,7 @@ pointRuleSingleTripartite | 单中心，以三方为主
 bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -95,4 +100,5 @@ none | 不允许不存在用户映射
 allowNull | 允许不存在用户映射
 
 **是否允许自定义实现**: Y
+
 

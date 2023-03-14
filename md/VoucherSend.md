@@ -26,6 +26,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteCouponSendTemplateUri
 > 有赞发放 模板endPoint 模板Id
@@ -34,6 +35,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -50,6 +52,7 @@
 true | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserRelationMapping
 > 
@@ -61,6 +64,7 @@ true |
 bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserRelationMappingFallback
 > 
@@ -72,4 +76,5 @@ bean:userMappingProviderImpl?method=byYzUser |
 none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
+
 

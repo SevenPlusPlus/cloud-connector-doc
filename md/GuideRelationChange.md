@@ -29,6 +29,7 @@
 GuideRelationChangeYzTemplate-alpha | 导购客户关系变更有赞标准模板
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteGuideRelationChangeUri
 > 外部三方根据标准交换实体 导购专属关系变更 的子流程模板EndpointUri或模板ID
@@ -37,6 +38,7 @@ GuideRelationChangeYzTemplate-alpha | 导购客户关系变更有赞标准模板
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义子流程EndpointUri：前置过滤逻辑
@@ -48,4 +50,5 @@ GuideRelationChangeYzTemplate-alpha | 导购客户关系变更有赞标准模板
 none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
+
 

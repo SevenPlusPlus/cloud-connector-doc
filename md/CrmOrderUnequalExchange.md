@@ -29,6 +29,7 @@ CRM外部单非等价换货
 bean:emptyProducer?method=process | Mock空实现
 
 **是否允许自定义实现**: Y
+
 ---
 ##### yzStandardUnequalExchangeOuterOrderUri
 > 非等价换货有赞标准模板
@@ -40,6 +41,7 @@ bean:emptyProducer?method=process | Mock空实现
 CrmOrderUnequalExchangeYzTemplate-alpha | 有赞非等价换货流程实现alpha版本
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 
@@ -51,6 +53,7 @@ CrmOrderUnequalExchangeYzTemplate-alpha | 有赞非等价换货流程实现alpha
 none | 没有实现，不做处理，预留扩展
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -68,6 +71,7 @@ none | 没有实现，不做处理，预留扩展
 CrmOrderRefund | 退款子流程
 
 **是否允许自定义实现**: Y
+
 ---
 ##### subCreateOrderUri
 > 下单uri
@@ -79,4 +83,5 @@ CrmOrderRefund | 退款子流程
 CrmOrderPush | 同步创建订单子流程
 
 **是否允许自定义实现**: Y
+
 

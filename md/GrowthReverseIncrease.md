@@ -31,6 +31,7 @@ mock:doNothing | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 拉取三方成长值记录子流程模板EndpointUri或模板ID
@@ -46,6 +47,7 @@ mock:doNothing | 无业务逻辑处理
 GrowthReverseIncreaseTemplateYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义前置过滤
@@ -57,6 +59,7 @@ GrowthReverseIncreaseTemplateYzTemplate-alpha |
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -73,6 +76,7 @@ none | 无业务逻辑处理
 bean:userMappingProviderImpl?method=byOutUser | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMappingFallback
 > 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
@@ -84,4 +88,5 @@ bean:userMappingProviderImpl?method=byOutUser |
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 

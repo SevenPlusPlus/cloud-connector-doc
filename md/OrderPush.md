@@ -30,6 +30,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### yzOrderPushUri
 > 有赞订单推送子流程EndpointURI或子流程模板参数
@@ -41,6 +42,7 @@
 OrderPushTemplateYzTemplate-alpha | 有赞标准流程实现alpha版本
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义前置过滤逻辑子流程EndpointUri
@@ -52,6 +54,7 @@ OrderPushTemplateYzTemplate-alpha | 有赞标准流程实现alpha版本
 orderPushStandardPreFilterPredicate | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -69,6 +72,7 @@ bean:shopMappingProviderImpl?method=byYzShop |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 实现{@link ShopMappingProvider#byYzShop(com.youzan.cloud.connector.sdk.api.shop.model.ByYzShopQryParam)}的组件名
@@ -84,6 +88,7 @@ bean:shopMappingProviderImpl?method=byYzShop |
 none | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -102,6 +107,7 @@ bean:userMappingProviderImpl?method=byYzUser |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 实现{@link com.youzan.cloud.connector.sdk.api.user.UserMappingProvider#byYzUser(com.youzan.cloud.connector.sdk.api.user.model.ByYzUserQryParam)}的组件名
@@ -117,6 +123,7 @@ bean:userMappingProviderImpl?method=byYzUser |
 none | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -135,6 +142,7 @@ bean:guideMappingProviderImpl?method=byYzGuide |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的组件名
@@ -150,6 +158,7 @@ bean:guideMappingProviderImpl?method=byYzGuide |
 none | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -168,6 +177,7 @@ bean:guideMappingProviderImpl?method=byYzGuide |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的组件名
@@ -183,6 +193,7 @@ bean:guideMappingProviderImpl?method=byYzGuide |
 none | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -201,6 +212,7 @@ none |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 实现{@link(com.youzan.cloud.connector.sdk.api.common.ExchangeFilterPredicate)}的组件名
@@ -217,6 +229,7 @@ bean:fullItemMappingFacadeImpl?method=queryOutFullItemInfo |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 实现{@link FullItemMappingFacade#queryOutFullItemInfo(com.youzan.cloud.connector.sdk.api.item.model.QueryOutFullItemParam)}的组件名
@@ -232,6 +245,7 @@ bean:fullItemMappingFacadeImpl?method=queryOutFullItemInfo |
 none | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -250,6 +264,7 @@ bean:guideMappingProviderImpl?method=byYzGuide |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的组件名
@@ -265,6 +280,7 @@ bean:guideMappingProviderImpl?method=byYzGuide |
 none | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -283,6 +299,7 @@ bean:guideMappingProviderImpl?method=byYzGuide |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的组件名
@@ -298,6 +315,7 @@ bean:guideMappingProviderImpl?method=byYzGuide |
 none | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -315,6 +333,7 @@ none |
 bean:subOrderFilterImpl?method=doRefundSubOrderFilter | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```

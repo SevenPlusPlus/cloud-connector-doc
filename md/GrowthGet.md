@@ -29,6 +29,7 @@
 GrowthGetTemplateYzTemplate-alpha | 有赞标准模板：成长值正向查询
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteGetGrowthUri
 > 外部三方根据标准交换实体"产线用户成长值"的子流程模板EndpointUri或模板ID
@@ -37,6 +38,7 @@ GrowthGetTemplateYzTemplate-alpha | 有赞标准模板：成长值正向查询
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义前置过滤
@@ -48,6 +50,7 @@ GrowthGetTemplateYzTemplate-alpha | 有赞标准模板：成长值正向查询
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -65,6 +68,7 @@ bean:userMappingProviderImpl?method=byYzUser |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 自定义根据yzOpenId查询用户关联关系EndpointUri 或 实现@link(com.youzan.cloud.connector.sdk.api.common.ExchangeFilterPredicate)的组件名
@@ -81,4 +85,5 @@ none | 不允许不存在用户映射
 allowNull | 允许不存在用户映射
 
 **是否允许自定义实现**: Y
+
 

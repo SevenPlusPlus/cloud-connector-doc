@@ -26,6 +26,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteVoucherRecycleUri
 > 外部三方 回收券 子流程模板ID
@@ -34,6 +35,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -47,6 +49,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMapping
 > 自定义外部用户映射子流程EndpointUri
@@ -58,6 +61,7 @@
 bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMappingFallback
 > 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
@@ -69,6 +73,7 @@ bean:userMappingProviderImpl?method=byYzUser |
 none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customCouponRelationMapping
 > 自定义优惠券映射子流程EndpointUri
@@ -80,6 +85,7 @@ none | 无业务处理逻辑
 bean:couponMappingProviderImpl?method=byOutCouponInfo | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customActivityRelationMapping
 > 自定义优惠券活动映射子流程EndpointUri
@@ -91,6 +97,7 @@ bean:couponMappingProviderImpl?method=byOutCouponInfo |
 bean:activityMappingProviderImpl?method=query | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customShopRelationMapping
 > 自定义外部店铺映射子流程EndpointUri
@@ -102,6 +109,7 @@ bean:activityMappingProviderImpl?method=query |
 bean:shopMappingProviderImpl?method=byYzShop | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customShopRelationMappingFallback
 > 自定义外部店铺获取不到时的FallBack策略子流程EndpointUri
@@ -113,6 +121,7 @@ bean:shopMappingProviderImpl?method=byYzShop |
 none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
+
 ---
 ##### isMigrate
 > 是否为迁移店铺，会跳过对coupon_operate_record的校验
@@ -121,4 +130,5 @@ none | 无业务处理逻辑
 
 
 **是否允许自定义实现**: Y
+
 

@@ -29,6 +29,7 @@ CRM外部维权单创建
 bean:emptyProducer?method=process | Mock空实现，三方通过标准逆向API调用时不需要实现
 
 **是否允许自定义实现**: Y
+
 ---
 ##### yzStandardRefundOuterOrderUri
 > 退款有赞标准模板
@@ -40,6 +41,7 @@ bean:emptyProducer?method=process | Mock空实现，三方通过标准逆向API�
 CrmOrderRefundYzTemplate-alpha | 有赞退款标注流程实现alpha版本
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义子流程EndpointUri：前置过滤逻辑
@@ -51,6 +53,7 @@ CrmOrderRefundYzTemplate-alpha | 有赞退款标注流程实现alpha版本
 none | 没有实现，不做处理，预留扩展
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -67,6 +70,7 @@ none | 没有实现，不做处理，预留扩展
 none | 没有实现，不做处理，预留扩展
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```

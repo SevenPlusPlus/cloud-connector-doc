@@ -33,6 +33,7 @@
 RefundOrderCreateYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteCreateRefundOrderUri
 > 外部三方根据标准交换实体同步创建外部维权单的子流程模板EndpointUri或模板ID
@@ -41,6 +42,7 @@ RefundOrderCreateYzTemplate-alpha |
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customShopRelationMapping
 > 
@@ -52,6 +54,7 @@ RefundOrderCreateYzTemplate-alpha |
 bean:shopMappingProviderImpl?method=byYzShop | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -69,6 +72,7 @@ bean:shopMappingProviderImpl?method=byYzShop |
 none | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -88,6 +92,7 @@ bean:userMappingProviderImpl?method=byYzUser |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 自定义外部用户映射子流程EndpointUri
@@ -104,6 +109,7 @@ bean:userMappingProviderImpl?method=byYzUser |
 none | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -123,6 +129,7 @@ enable | 是
 disable | 否
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 
@@ -134,6 +141,7 @@ disable | 否
 orderRefundStandardPreFilterPredicate | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -153,6 +161,7 @@ disable |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 自定义外部子订单映射子流程EndpointUri
@@ -170,4 +179,5 @@ enable |
 disable | 
 
 **是否允许自定义实现**: Y
+
 

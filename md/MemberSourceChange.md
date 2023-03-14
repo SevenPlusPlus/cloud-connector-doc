@@ -29,6 +29,7 @@
 memberSourceChangeSceneYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteMemberSourceChangeUri
 > 
@@ -37,6 +38,7 @@ memberSourceChangeSceneYzTemplate-alpha |
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -54,4 +56,5 @@ disable | 不打通
 enable | 打通
 
 **是否允许自定义实现**: Y
+
 

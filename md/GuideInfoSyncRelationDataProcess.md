@@ -29,6 +29,7 @@
 GuideInfoSyncRelationDataProcessYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteGuideCustomerListQueryUri
 > 外部三方根据标准交换实体 导购客户列表查询 的子流程模板EndpointUri或模板ID
@@ -37,6 +38,7 @@ GuideInfoSyncRelationDataProcessYzTemplate-alpha |
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义子流程EndpointUri：前置过滤逻辑
@@ -48,4 +50,5 @@ GuideInfoSyncRelationDataProcessYzTemplate-alpha |
 none | 不处理
 
 **是否允许自定义实现**: Y
+
 

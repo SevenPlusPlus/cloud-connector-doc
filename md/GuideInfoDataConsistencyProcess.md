@@ -29,6 +29,7 @@
 GuideInfoDataConsistencyProcessYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteGuideInfoQueryUri
 > 外部三方根据标准交换实体 导购档案查询 的子流程模板EndpointUri或模板ID
@@ -37,6 +38,7 @@ GuideInfoDataConsistencyProcessYzTemplate-alpha |
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteGuideInfoUpdateUri
 > 外部三方根据标准交换实体 导购档案更新 的子流程模板EndpointUri或模板ID
@@ -48,6 +50,7 @@ GuideInfoDataConsistencyProcessYzTemplate-alpha |
 bean:emptyProducer?method=process | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### defaultAlignmentStrategy
 > 开发者也可自定义对齐策略
@@ -64,4 +67,5 @@ TRIPARTITE_FORCE | 强制以三方为准，null 也会覆盖
 TRIPARTITE_CHANNEL | 双方都有数据或都无数据时以三方为准，其它以数据链路源头为准（下行以有赞为准、上行以三方为准）
 
 **是否允许自定义实现**: Y
+
 

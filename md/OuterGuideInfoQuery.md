@@ -30,3 +30,4 @@ OuterGuideInfoQueryYzTemplate-alpha | 导购档案更新有赞标准模版
 
 **是否允许自定义实现**: Y
 
+

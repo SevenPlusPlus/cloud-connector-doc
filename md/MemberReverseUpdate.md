@@ -30,6 +30,7 @@
 memberReverseUpdateSceneYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### isUpdateLevel
 > 是否修改等级
@@ -42,6 +43,7 @@ false | 否
 true | 是
 
 **是否允许自定义实现**: Y
+
 ---
 ##### isUpdateCustomerSource
 > 是否修改会员归属
@@ -54,6 +56,7 @@ false | 否
 true | 是
 
 **是否允许自定义实现**: Y
+
 ---
 ##### isUpdateGuideRelation
 > 是否修改导购关系
@@ -66,6 +69,7 @@ false | 否
 true | 是
 
 **是否允许自定义实现**: Y
+
 ---
 ##### memberLevelReverseUpdateUri
 > 会员等级修改url
@@ -74,6 +78,7 @@ true | 是
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customerSourceReverseUpdateUri
 > 会员归属逆向修改url
@@ -82,4 +87,5 @@ true | 是
 
 
 **是否允许自定义实现**: Y
+
 

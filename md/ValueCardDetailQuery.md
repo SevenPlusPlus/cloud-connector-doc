@@ -27,6 +27,7 @@
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 三方自行实现查询储值卡详情流程
@@ -39,6 +40,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMapping
 > 自定义外部用户映射子流程EndpointUri
@@ -50,6 +52,7 @@
 bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -66,6 +69,7 @@ bean:userMappingProviderImpl?method=byYzUser |
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 ---
 ##### canRecharge
 > 是否可以充值
@@ -78,4 +82,5 @@ true | 使用有赞储值卡规则
 false | 不使用有赞储值卡规则
 
 **是否允许自定义实现**: Y
+
 

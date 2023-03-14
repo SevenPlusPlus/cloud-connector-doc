@@ -29,6 +29,7 @@
 LevelUpdateTemplateYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### updateLevelInfoUri
 > 
@@ -37,6 +38,7 @@ LevelUpdateTemplateYzTemplate-alpha |
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -53,6 +55,7 @@ LevelUpdateTemplateYzTemplate-alpha |
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -73,6 +76,7 @@ levelRuleSingleYz | 单中心,以有赞为主
 levelRuleSingleTripartite | 单中心，以三方为主
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripLevelRuleStrategyUri
 > 有赞对应三方等级一对多时，选择策略
@@ -86,4 +90,5 @@ tripartiteLevelRuleValueLow | 三方等级排序，低的为主
 tripartiteLevelRuleValueHigh | 三方等级排序，高的为主
 
 **是否允许自定义实现**: Y
+
 

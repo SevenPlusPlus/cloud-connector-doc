@@ -29,6 +29,7 @@
 PointLogGetTemplateYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteGetPointLogUri
 > 外部三方根据标准交换实体"查询积分日志"的子流程模板EndpointUri或模板ID
@@ -37,6 +38,7 @@ PointLogGetTemplateYzTemplate-alpha |
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义前置过滤
@@ -48,6 +50,7 @@ PointLogGetTemplateYzTemplate-alpha |
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```

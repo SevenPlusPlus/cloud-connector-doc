@@ -29,6 +29,7 @@
 memberQuerySceneYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customShopRelationMapping
 > 
@@ -40,6 +41,7 @@ memberQuerySceneYzTemplate-alpha |
 bean:shopMappingProviderImpl?method=byYzShop | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -57,6 +59,7 @@ bean:shopMappingProviderImpl?method=byYzShop |
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -76,6 +79,7 @@ bean:userMappingProviderImpl?method=byYzUser |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 自定义外部用户映射子流程EndpointUri
@@ -93,6 +97,7 @@ none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
@@ -107,6 +112,7 @@ none | 无业务逻辑处理
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```

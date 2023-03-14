@@ -27,6 +27,7 @@
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 三方自行实现储值卡流水查询流程
@@ -39,6 +40,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMapping
 > 自定义外部用户映射子流程EndpointUri
@@ -50,6 +52,7 @@
 bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMappingFallback
 > 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
@@ -61,4 +64,5 @@ bean:userMappingProviderImpl?method=byYzUser |
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 

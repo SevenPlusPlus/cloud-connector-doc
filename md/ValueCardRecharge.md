@@ -27,6 +27,7 @@
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 三方自行实现储值卡充值流程
@@ -39,6 +40,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserRelationMapping
 > 自定义外部用户映射子流程EndpointUri
@@ -50,6 +52,7 @@
 bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -67,6 +70,7 @@ bean:shopMappingProviderImpl?method=byYzShop |
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 店铺查询组件 ShopMappingProvider
@@ -82,6 +86,7 @@ bean:shopMappingProviderImpl?method=byYzShop |
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customShopRelationMappingFallback
 > 自定义外部店铺获取不到时的FallBack策略子流程EndpointUri
@@ -93,4 +98,5 @@ none | 无业务逻辑处理
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 

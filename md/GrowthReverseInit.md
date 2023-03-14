@@ -30,6 +30,7 @@ bean:emptyProducer?method=process | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
 
+
 **定制示例**:
 ```
 拉取三方成长值记录子流程模板EndpointUri或模板ID
@@ -45,6 +46,7 @@ bean:emptyProducer?method=process | 无业务逻辑处理
 GrowthReverseInitTemplateYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteGetGrowthUri
 > 外部三方根据标准交换实体"查询用户成长值"的子流程模板EndpointUri或模板ID
@@ -53,6 +55,7 @@ GrowthReverseInitTemplateYzTemplate-alpha |
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteIncreaseGrowthUri
 > 外部三方根据标准交换实体"增加用户成长值"的子流程模板EndpointUri或模板ID
@@ -61,6 +64,7 @@ GrowthReverseInitTemplateYzTemplate-alpha |
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteDecreaseGrowthUri
 > 外部三方根据标准交换实体"减少用户成长值"的子流程模板EndpointUri或模板ID
@@ -69,6 +73,7 @@ GrowthReverseInitTemplateYzTemplate-alpha |
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### initGrowthRuleStrategyUri
 > 初始化成长值时，成长值处理规则
@@ -84,6 +89,7 @@ initGrowthRuleHigh | 取高的成长值
 initGrowthRuleCustom | 自定义成长值计算
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customGrowthCalculate
 > 自定义成长值计算计算（当initPointRuleStrategyUri选择StrategyValueEnum.INIT_GROWTH_RULE_CUSTOM.getSubRouteId()时实现）
@@ -95,6 +101,7 @@ initGrowthRuleCustom | 自定义成长值计算
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -114,6 +121,7 @@ growthRuleSingleYz | 单中心,以有赞为主
 growthRuleSingleTripartite | 单中心，以三方为主
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMapping
 > 自定义外部用户映射子流程EndpointUri
@@ -125,6 +133,7 @@ growthRuleSingleTripartite | 单中心，以三方为主
 bean:userMappingProviderImpl?method=byOutUser | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMappingFallback
 > 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
@@ -136,4 +145,5 @@ bean:userMappingProviderImpl?method=byOutUser |
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 

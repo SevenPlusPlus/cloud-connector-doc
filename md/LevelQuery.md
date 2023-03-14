@@ -29,6 +29,7 @@
 LevelQueryTemplateYzTemplate-alpha | 等级正向查询有赞标准模板
 
 **是否允许自定义实现**: Y
+
 ---
 ##### queryLevelInfoUri
 > 
@@ -37,6 +38,7 @@ LevelQueryTemplateYzTemplate-alpha | 等级正向查询有赞标准模板
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -53,6 +55,7 @@ LevelQueryTemplateYzTemplate-alpha | 等级正向查询有赞标准模板
 bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```

@@ -29,6 +29,7 @@
 PointInitTemplateYzTemplate-alpha | 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义前置过滤
@@ -40,6 +41,7 @@ PointInitTemplateYzTemplate-alpha |
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -53,6 +55,7 @@ none | 无业务逻辑处理
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteIncreasePointUri
 > 外部三方根据标准交换实体"增加用户积分"的子流程模板EndpointUri或模板ID
@@ -61,6 +64,7 @@ none | 无业务逻辑处理
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteDecreasePointUri
 > 外部三方根据标准交换实体"减少用户积分"的子流程模板EndpointUri或模板ID
@@ -69,6 +73,7 @@ none | 无业务逻辑处理
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### initPointRuleStrategyUri
 > 初始化积分时，积分处理规则
@@ -84,6 +89,7 @@ initPointRuleHigh | 取高的积分值
 initPointRuleCustom | 自定义积分计算
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPointCalculate
 > 自定义积分计算（当initPointRuleStrategyUri选择StrategyValueEnum.INIT_POINT_RULE_CUSTOM.getSubRouteId()时实现）
@@ -95,6 +101,7 @@ initPointRuleCustom | 自定义积分计算
 none | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -114,6 +121,7 @@ pointRuleSingleYz | 单中心,以有赞为主
 pointRuleSingleTripartite | 单中心，以三方为主
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customUserMapping
 > 自定义根据yzOpenId查询用户关联关系
@@ -125,6 +133,7 @@ pointRuleSingleTripartite | 单中心，以三方为主
 bean:userMappingProviderImpl?method=byYzUser | 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -142,4 +151,5 @@ none | 不允许不存在用户映射
 allowNull | 允许不存在用户映射
 
 **是否允许自定义实现**: Y
+
 

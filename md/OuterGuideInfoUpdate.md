@@ -30,6 +30,7 @@
 OuterGuideInfoUpdateYzTemplate-alpha | 外部导购档案更新有赞标准模板
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义子流程EndpointUri：前置过滤逻辑
@@ -41,6 +42,7 @@ OuterGuideInfoUpdateYzTemplate-alpha | 外部导购档案更新有赞标准模�
 none | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreConverter
 > 自定义子流程EndpointUri：前置转换逻辑
@@ -52,4 +54,5 @@ none | 无业务处理逻辑
 bean:emptyProducer?method=process | 无业务处理逻辑
 
 **是否允许自定义实现**: Y
+
 

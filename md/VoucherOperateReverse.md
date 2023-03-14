@@ -26,6 +26,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### tripartiteBuildExchangeUri
 > 外部券构建CouponOperationExchangeEntity标准流程模版EndpointUri或模版ID
@@ -34,6 +35,7 @@
 
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
@@ -47,6 +49,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### yzVoucherDisuseReverseUri
 > 有赞券失效逆向标准流程模板EndpointUri或模板ID
@@ -55,6 +58,7 @@
 
 
 **是否允许自定义实现**: Y
+
 ---
 ##### yzVoucherRecycleReverseUri
 > 有赞券回收逆向标准流程模板EndpointUri或模板ID
@@ -63,4 +67,5 @@
 
 
 **是否允许自定义实现**: Y
+
 

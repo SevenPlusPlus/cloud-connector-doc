@@ -29,6 +29,7 @@ CRM外部换货
 bean:emptyProducer?method=process | Mock空实现，标准逆向API调用时不需要实现
 
 **是否允许自定义实现**: Y
+
 ---
 ##### yzStandardExchangeOuterOrderUri
 > 有赞换货标准模板
@@ -40,6 +41,7 @@ bean:emptyProducer?method=process | Mock空实现，标准逆向API调用时不�
 CrmOrderExchangeYzTemplate-alpha | 有赞换货标准流程实现alpha版本
 
 **是否允许自定义实现**: Y
+
 ---
 ##### customPreFilterPredicate
 > 自定义子流程EndpointUri：前置过滤逻辑
@@ -51,6 +53,7 @@ CrmOrderExchangeYzTemplate-alpha | 有赞换货标准流程实现alpha版本
 none | 没有实现，不做处理，预留扩展
 
 **是否允许自定义实现**: Y
+
 
 **定制示例**:
 ```
