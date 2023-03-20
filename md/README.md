@@ -125,11 +125,11 @@
 * [库存同步](StockSync.md)
 
 ### item
-* [商品创建上行](outItemCreate.md)
+* [商品创建上行](OutItemCreate.md)
 
-* [商品更新上行](outItemUpdate.md)
+* [商品更新上行](OutItemUpdate.md)
 
-* [商品同步上行](outItemSync.md)
+* [商品同步上行](OutItemSync.md)
 
 * [商品删除](ItemDelete.md)
 
