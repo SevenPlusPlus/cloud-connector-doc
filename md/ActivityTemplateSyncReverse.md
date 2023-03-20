@@ -1,16 +1,16 @@
 [toc]
 
-## 外部券模版同步到有赞
+## 逆向同步券模版
 - 标识：ActivityTemplateSyncReverse
 - 交换实体：com.youzan.cloud.connector.sdk.core.voucher.ActivityTemplateQueryExchangeEntity
 ### 场景说明
-外部券模版同步到有赞
+逆向同步券模版
 ### 场景流程入口
 
 名称 | 标识 | 描述详情
 ---|---|---
 TSP拉取外部券模版 | OutTemplateSyncTimer | TSP拉取外部券模版
-外部券模版同步处理 | OutTemplateSyncMsg | 外部券模版同步处理
+逆向同步券模版 | OutTemplateSyncMsg | 逆向同步券模版，需前置配置你想券模版拉取TSP任务
 
 ### 场景流程模板配置
 - 模板ID：VoucherTemplateListQueryReverseTemplate
