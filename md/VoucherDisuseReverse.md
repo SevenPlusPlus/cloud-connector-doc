@@ -22,8 +22,11 @@
 ##### yzVoucherDisuseReverseUri
 > 有赞券失效逆向标准流程模板EndpointUri或模板ID
 
-**参数为必填项**
+**默认值**: VoucherDisuseReverseYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+VoucherDisuseReverseYzTemplate-alpha | 有赞标准流程实现alpha版本
 
 **是否允许自定义实现**: Y
 

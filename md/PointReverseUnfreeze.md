@@ -21,7 +21,7 @@
 #### 配置参数列表
 
 ---
-##### tripartiteFetchOrderUri
+##### tripartiteFetchUri
 > 拉取三方积分（实现拉取积分变动记录并转换有赞标准交换实体的子流程）
 
 **默认值**: bean:emptyProducer?method=process

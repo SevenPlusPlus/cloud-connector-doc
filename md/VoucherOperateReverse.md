@@ -22,8 +22,11 @@
 ##### yzVoucherOperatorReverseUri
 > 外部券拉取券操作标准流程模板EndpointUri或模板ID
 
-**参数为必填项**
+**默认值**: VoucherOperateReverseYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+VoucherOperateReverseYzTemplate-alpha | 有赞标准流程实现alpha版本
 
 **是否允许自定义实现**: Y
 
@@ -45,8 +48,11 @@
 ##### yzVoucherVerifyReverseUri
 > 有赞券核销逆向标准流程模板EndpointUri或模板ID
 
-**参数为必填项**
+**默认值**: VoucherVerifyReverseYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+VoucherVerifyReverseYzTemplate-alpha | 有赞标准流程实现alpha版本
 
 **是否允许自定义实现**: Y
 
@@ -54,8 +60,11 @@
 ##### yzVoucherDisuseReverseUri
 > 有赞券失效逆向标准流程模板EndpointUri或模板ID
 
-**参数为必填项**
+**默认值**: VoucherDisuseReverseYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+VoucherDisuseReverseYzTemplate-alpha | 有赞标准流程实现alpha版本
 
 **是否允许自定义实现**: Y
 
@@ -63,8 +72,11 @@
 ##### yzVoucherRecycleReverseUri
 > 有赞券回收逆向标准流程模板EndpointUri或模板ID
 
-**参数为必填项**
+**默认值**: VoucherRecycleReverseYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+VoucherRecycleReverseYzTemplate-alpha | 有赞标准流程实现alpha版本
 
 **是否允许自定义实现**: Y
 

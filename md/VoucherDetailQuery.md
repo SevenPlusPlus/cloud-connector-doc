@@ -22,8 +22,11 @@
 ##### yzVoucherDetailQueryUri
 > 有赞查询券详情 模板endPoint 模板Id
 
-**参数为必填项**
+**默认值**: VoucherDetailQueryYzTemplate-alpha
 
+已支持的参数值 | 值含义说明
+---|---
+VoucherDetailQueryYzTemplate-alpha | 有赞标准流程实现alpha版本
 
 **是否允许自定义实现**: Y
 

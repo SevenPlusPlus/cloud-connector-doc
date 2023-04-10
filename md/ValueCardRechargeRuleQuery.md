@@ -33,6 +33,15 @@
 三方自行实现储值充值规则查询流程
 ```
 ---
+##### tripartiteDefaultRuleCardNoQueryUri
+> 当储值规则为单卡时，需要实现
+
+**参数为必填项**
+
+
+**是否允许自定义实现**: Y
+
+---
 ##### yzValueCardRuleQueryTemplateUri
 > 有赞储值规则查询流程
 
@@ -67,6 +76,18 @@ bean:userMappingProviderImpl?method=byYzUser |
 已支持的参数值 | 值含义说明
 ---|---
 none | 无业务逻辑处理
+
+**是否允许自定义实现**: Y
+
+---
+##### hasDefaultRule
+> 是否有默认储值规则
+
+**默认值**: true
+
+已支持的参数值 | 值含义说明
+---|---
+true | 是否在有赞计算支付金额
 
 **是否允许自定义实现**: Y
 

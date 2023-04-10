@@ -134,8 +134,6 @@
 * [商品删除](ItemDelete.md)
 
 ### voucher
-* [券列表查询](VoucherQuery.md)
-
 * [券详情查询](VoucherDetailQuery.md)
 
 * [券核销](VoucherVerify.md)
@@ -150,15 +148,9 @@
 
 * [批量券发放](VoucherBatchSend.md)
 
-* [有赞券模版同步到三方](VoucherActivityTemplateCreate.md)
-
-* [有赞券模版修改](VoucherActivityTemplateUpdate.md)
-
 * [优惠券逆向创建券模板活动REST](VoucherActivityCreateReverseRest.md)
 
 * [外部券模版查询](VoucherTemplateDetailQuery.md)
-
-* [可用券查询](AvailableVoucherQuery.md)
 
 * [外部券模版同步到有赞](ActivityTemplateSyncReverse.md)
 
@@ -173,6 +165,26 @@
 * [优惠券发放逆向](VoucherSendReverse.md)
 
 * [外部券操作同步至有赞](VoucherOperateReverse.md)
+
+* [有赞券模版修改](ActivityUpdate.md)
+
+* [有赞券模版同步到三方](ActivityTemplateCreate.md)
+
+* [可用券查询](AvailableVoucherQuery.md)
+
+* [优惠券逆向冻结REST接口](VoucherFrozenReverseRest.md)
+
+* [优惠券逆向预核销REST接口](VoucherPreVerifyReverseRest.md)
+
+* [优惠券逆向查询优惠折扣信息REST接口](VoucherQueryDiscountReverseRest.md)
+
+* [优惠券逆向查询券列表REST接口](VoucherQueryListReverseRest.md)
+
+* [优惠券逆向解冻优惠券REST接口](VoucherUnFrozenReverseRest.md)
+
+* [优惠券模板逆向删除REST接口](VoucherActivityDeleteReverseRest.md)
+
+* [](.md)
 
 ### valuecard
 * [储值卡列表查询](ValueCardListQuery.md)

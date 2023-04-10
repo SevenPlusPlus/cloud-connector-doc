@@ -10,6 +10,7 @@
 名称 | 标识 | 描述详情
 ---|---|---
 储值卡交易明细查询 | ValueCardListQueryExt | 储值卡交易明细查询
+储值卡交易明细查询扩展点 | ValueCardRecordQueryExt | 储值卡交易明细查询扩展点
 
 ### 场景流程模板配置
 - 模板ID：ValueCardRecordQueryTemplate

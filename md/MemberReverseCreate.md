@@ -20,7 +20,7 @@
 #### 配置参数列表
 
 ---
-##### tripartiteFetchOrderUri
+##### tripartiteFetchUri
 > 
 
 **默认值**: mock:doNothing
