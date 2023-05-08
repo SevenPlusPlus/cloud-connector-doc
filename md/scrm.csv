@@ -12,7 +12,7 @@ MemberReverseSourceChange,会员归属店铺逆向更新
 MemberReverseQrDecode,会员二维码逆向解码
 LevelQuery,等级正向查询
 LevelUpdate,等级正向更新
-LevelInit,会员创建后，等级初始化
+LevelInit,等级初始化
 LevelReverseUpdate,等级逆向更新
 PointGet,积分正向查询
 PointLogGet,积分流水日志正向查询
@@ -40,3 +40,4 @@ GrowthReverseInit,成长值逆向初始化
 GrowthReverseGet,成长值逆向查询
 GrowthReverseIncrease,成长值逆向增加
 GrowthReverseDecrease,成长值逆向减少
+LevelRecalculate,等级重算

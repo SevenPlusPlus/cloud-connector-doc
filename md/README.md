@@ -15,6 +15,24 @@
 
 * [CRM外部单非等价换货](CrmOrderUnequalExchange.md)
 
+* [退款单状态修改通知推送](OrderRefundChangedNotify.md)
+
+* [退款单外部同意](OrderRefundOuterAgree.md)
+
+* [退款单外部拒绝](OrderRefundOuterRefuse.md)
+
+* [三方主动退款](OrderRefundSellerActive.md)
+
+* [外部订单发货同步有赞](OrderShipReverse.md)
+
+* [订单自提同步有赞](OrderSelfFetchReverse.md)
+
+* [订单同城配送同步有赞](OrderLogisticsReverse.md)
+
+* [订单同城配送状态同步有赞](OrderLogisticsStatusReverse.md)
+
+* [外部订单详情查询](OrderQueryReverse.md)
+
 ### scrm
 * [会员正向创建](MemberCreate.md)
 
@@ -44,7 +62,7 @@
 
 * [等级正向更新](LevelUpdate.md)
 
-* [会员创建后，等级初始化](LevelInit.md)
+* [等级初始化](LevelInit.md)
 
 * [等级逆向更新](LevelReverseUpdate.md)
 
@@ -99,6 +117,8 @@
 * [成长值逆向增加](GrowthReverseIncrease.md)
 
 * [成长值逆向减少](GrowthReverseDecrease.md)
+
+* [等级重算](LevelRecalculate.md)
 
 ### guide
 * [导购客户关系变更](GuideRelationChange.md)
@@ -184,10 +204,14 @@
 
 * [优惠券模板逆向删除REST接口](VoucherActivityDeleteReverseRest.md)
 
-* [](.md)
+* [优惠券逆向退还REST接口](VoucherRefundReverseRest.md)
+
+* [优惠券逆向核销REST接口](VoucherVerifyReverseRest.md)
+
+* [优惠券逆向回收REST接口](VoucherRecycleReverseRest.md)
 
 ### valuecard
-* [储值卡列表查询](ValueCardListQuery.md)
+* [储值卡列表](ValueCardListQuery.md)
 
 * [储值卡详情查询](ValueCardDetailQuery.md)
 
@@ -208,4 +232,14 @@
 * [储值卡充值结果查询](ValueCardRechargeQuery.md)
 
 * [储值卡充值发放赠送金](ValueCardRechargeBonus.md)
+
+* [储值兑换](ValueCardExchange.md)
+
+* [储值卡赠送](ValueCardGive.md)
+
+* [储值卡取消赠送](ValueCardCancelGive.md)
+
+* [储值卡领取](ValueCardTake.md)
+
+* [储值卡激活](ValueCardActivate.md)
 

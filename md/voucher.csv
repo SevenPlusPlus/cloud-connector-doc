@@ -23,4 +23,6 @@ VoucherQueryDiscountReverseRest,优惠券逆向查询优惠折扣信息REST接�
 VoucherQueryListReverseRest,优惠券逆向查询券列表REST接口
 VoucherUnFrozenReverseRest,优惠券逆向解冻优惠券REST接口
 VoucherActivityDeleteReverseRest,优惠券模板逆向删除REST接口
-
+VoucherRefundReverseRest,优惠券逆向退还REST接口
+VoucherVerifyReverseRest,优惠券逆向核销REST接口
+VoucherRecycleReverseRest,优惠券逆向回收REST接口

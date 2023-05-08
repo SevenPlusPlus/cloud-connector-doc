@@ -1,4 +1,4 @@
-ValueCardListQuery,储值卡列表查询
+ValueCardListQuery,储值卡列表
 ValueCardDetailQuery,储值卡详情查询
 ValueCardRecordQuery,储值卡交易明细查询
 ValueCardRechargeRuleQuery,储值卡充值规则查询
@@ -9,3 +9,8 @@ ValueCardRefundQuery,储值卡退款结果查询
 ValueCardRecharge,储值卡充值
 ValueCardRechargeQuery,储值卡充值结果查询
 ValueCardRechargeBonus,储值卡充值发放赠送金
+ValueCardExchange,储值兑换
+ValueCardGive,储值卡赠送
+ValueCardCancelGive,储值卡取消赠送
+ValueCardTake,储值卡领取
+ValueCardActivate,储值卡激活
