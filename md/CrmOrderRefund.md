@@ -10,6 +10,7 @@ CRM外部维权单创建
 名称 | 标识 | 描述详情
 ---|---|---
 订阅暂存消息：外部售后单 | CrmOrderRefundMsg | 订阅暂存消息：外部售后单
+外部订单退货API | OutOrderRefundRest | 外部订单退货API
 
 ### 场景流程模板配置
 - 模板ID：CrmOuterOrderRefundRouteTemplate

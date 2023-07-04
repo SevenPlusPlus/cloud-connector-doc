@@ -11,6 +11,7 @@ CRM外部订单创建
 ---|---|---
 订阅外部订单消息 | CrmOrderPushMsg | 订阅外部订单消息
 创建外部订单API | OutOrderCreate | 创建外部订单API
+创建外部订单API | OutOrderCreateRest | 创建外部订单API
 
 ### 场景流程模板配置
 - 模板ID：CrmOuterOrderCreateRouteTemplate
@@ -167,11 +168,11 @@ allowNull | 查询不存在时降级不阻断流程执行
 ##### customSalesGuideMapping
 > 自定义销售导购映射子流程EndpointUri
 
-**默认值**: bean:guideMappingProviderImpl?method=byOutGuide
+**默认值**: bean:guideMappingProviderImpl?method=findValidByOutGuide
 
 已支持的参数值 | 值含义说明
 ---|---
-bean:guideMappingProviderImpl?method=byOutGuide | 根据打通的导购映射表查询外部导购标识对应的有赞导购信息
+bean:guideMappingProviderImpl?method=findValidByOutGuide | 根据打通的导购映射表查询外部导购标识对应的有赞导购信息
 
 **是否允许自定义实现**: Y
 
@@ -202,11 +203,11 @@ allowNull | 查询不存在时降级不阻断流程执行
 ##### customServicesGuideMapping
 > 自定义专属导购映射子流程EndpointUri
 
-**默认值**: bean:guideMappingProviderImpl?method=byOutGuide
+**默认值**: bean:guideMappingProviderImpl?method=findValidByOutGuide
 
 已支持的参数值 | 值含义说明
 ---|---
-bean:guideMappingProviderImpl?method=byOutGuide | 根据打通的导购映射表查询外部导购标识对应的有赞专属导购信息
+bean:guideMappingProviderImpl?method=findValidByOutGuide | 根据打通的导购映射表查询外部导购标识对应的有赞专属导购信息
 
 **是否允许自定义实现**: Y
 
@@ -323,11 +324,11 @@ allowNull | 查询不存在时降级不阻断流程执行
 ##### customItemGuideMapping
 > 自定义销售导购映射子流程EndpointUri
 
-**默认值**: bean:guideMappingProviderImpl?method=byOutGuide
+**默认值**: bean:guideMappingProviderImpl?method=findValidByOutGuide
 
 已支持的参数值 | 值含义说明
 ---|---
-bean:guideMappingProviderImpl?method=byOutGuide | 根据打通的导购映射关系查询外部商品销售导购对应的有赞导购
+bean:guideMappingProviderImpl?method=findValidByOutGuide | 根据打通的导购映射关系查询外部商品销售导购对应的有赞导购
 
 **是否允许自定义实现**: Y
 

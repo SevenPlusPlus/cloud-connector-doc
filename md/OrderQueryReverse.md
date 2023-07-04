@@ -1,46 +1,310 @@
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
-<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="有赞,微信商城,粉丝营销,微信商城运营" />
-    <meta name="description" content="有赞是帮助商家在微信上搭建微信商城的平台，提供店铺、商品、订单、物流、消息和客户的管理模块，同时还提供丰富的营销应用和活动插件。" />
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="format-detection" content="telephone=no">
-    <meta http-equiv="cleartype" content="on">
+[toc]
 
-    <link rel="icon" href="//su.yzcdn.cn/v2/image/yz_fc.ico" />
+## 外部订单详情查询
+- 标识：OrderQueryReverse
+- 交换实体：com.youzan.cloud.connector.sdk.core.trade.OrderDetailExchangeEntity
+### 场景说明
+外部订单详情查询
+### 场景流程入口
 
-    <title>系统提示</title>
+名称 | 标识 | 描述详情
+---|---|---
+订单外部查询API | OrderQueryReverseRest | 订单外部查询API
 
-    <!-- ▼Page CSS -->
-    <style type="text/css">
-        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}html{width:100%;height:100%}body{color:#000;background:#fff;font-size:14px;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;font-family:Helvetica, "STHeiti STXihei", "Microsoft JhengHei", "Microsoft YaHei", Tohoma, Arial;width:100%;height:100%;overflow-x:hidden;overflow-y:hidden}.container{padding-top:80px;min-width:320px}.dragon-ctrl{margin:0 auto;width:130px;height:104px;background: url("https://b.yzcdn.cn/v2/image/wap/common_page/dragon.gif") center center no-repeat;background-size:130px 104px}.error-msg{margin-top:30px;text-align:center;color:#333;font-size:16px;line-height:24px}.error-code{text-align:center;font-size:14px;line-height:14px;margin-top:10px;color:#999}
-    </style>
-    <!-- ▲Page CSS -->
+### 场景流程模板配置
+- 模板ID：OrderQueryReverseRouteTemplate
+- 模板类：com.youzan.cloud.connector.sdk.template.trade.OrderQueryReverseRouteTemplate
+- 模板参数类：com.youzan.cloud.connector.sdk.template.trade.OrderQueryReverseRouteTemplate$TemplateParameters
 
-</head>
+#### 配置参数列表
 
-<body>
-    <div class="container">
-        <div class="dragon-ctrl">
-        </div>
-        <div class="error-msg">
-            哎呀，页面被霸王龙藏起来了~</br>
-            稍后请刷新页面~
-        </div>
-        <div class="error-code">
-            状态码：500
-        </div>
-        <div class="error-code">
-            10.11.2.127|233|ra.rf.rg.pa.a.pd.pb.ph.pe.pf.y.j.pi.k.l.n.w
-            <br/>
-            b3BzYmQtcHJvZC1odHRwZ3ctY2xvdWQtaHR0cGd3LW9mZmljZS1uZ2lueC0w
-            <br/>
-            yz7-0a0b01cf-1683600482892-160666
-         </div>
-    </div>
-</body>
-</html>
+---
+##### yzOrderQueryUri
+> 有赞订单查询子流程EndpointURI或子流程模板参数
+
+**参数为必填项**
+
+
+**是否允许自定义实现**: Y
+
+---
+##### customPreFilterPredicate
+> 自定义前置过滤逻辑子流程EndpointUri
+
+**默认值**: orderPushStandardPreFilterPredicate
+
+已支持的参数值 | 值含义说明
+---|---
+orderPushStandardPreFilterPredicate | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+实现{@link(com.youzan.cloud.connector.sdk.api.common.ExchangeFilterPredicate)}的组件名
+```
+---
+##### customShopRelationMapping
+> 自定义外部店铺映射子流程EndpointUri
+
+**默认值**: bean:shopMappingProviderImpl?method=byYzShop
+
+已支持的参数值 | 值含义说明
+---|---
+bean:shopMappingProviderImpl?method=byYzShop | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+实现{@link ShopMappingProvider#byYzShop(com.youzan.cloud.connector.sdk.api.shop.model.ByYzShopQryParam)}的组件名
+```
+---
+##### customShopRelationMappingFallback
+> 自定义外部店铺获取不到时的FallBack策略子流程EndpointUri
+
+**默认值**: none
+
+已支持的参数值 | 值含义说明
+---|---
+none | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+指定allowNull（允许映射为空）
+或实现{@link ShopMappingProvider#byYzShop(com.youzan.cloud.connector.sdk.api.shop.model.ByYzShopQryParam)}的组件名
+```
+---
+##### customUserMapping
+> 自定义外部用户映射子流程EndpointUri
+
+**默认值**: bean:userMappingProviderImpl?method=byYzUser
+
+已支持的参数值 | 值含义说明
+---|---
+bean:userMappingProviderImpl?method=byYzUser | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+实现{@link com.youzan.cloud.connector.sdk.api.user.UserMappingProvider#byYzUser(com.youzan.cloud.connector.sdk.api.user.model.ByYzUserQryParam)}的组件名
+```
+---
+##### customUserMappingFallback
+> 自定义外部用户获取不到时的FallBack策略子流程EndpointUri
+
+**默认值**: none
+
+已支持的参数值 | 值含义说明
+---|---
+none | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+指定allowNull（允许映射为空）
+或实现{@link UserMappingProvider#byOutUser(com.youzan.cloud.connector.sdk.api.user.model.ByOutUserQryParam)}的组件名
+```
+---
+##### customSalesGuideMapping
+> 自定义销售导购映射子流程EndpointUri
+
+**默认值**: bean:guideMappingProviderImpl?method=findValidByYzGuide
+
+已支持的参数值 | 值含义说明
+---|---
+bean:guideMappingProviderImpl?method=findValidByYzGuide | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的组件名
+```
+---
+##### customSalesGuideMappingFallback
+> 自定义销售导购获取不到时的FallBack策略子流程EndpointUri
+
+**默认值**: none
+
+已支持的参数值 | 值含义说明
+---|---
+none | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+指定allowNull（允许映射为空）
+或实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的降级逻辑的组件名
+```
+---
+##### customServicesGuideMapping
+> 自定义专属导购映射子流程EndpointUri
+
+**默认值**: bean:guideMappingProviderImpl?method=findValidByYzGuide
+
+已支持的参数值 | 值含义说明
+---|---
+bean:guideMappingProviderImpl?method=findValidByYzGuide | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的组件名
+```
+---
+##### customServicesGuideMappingFallback
+> 自定义专属导购获取不到时的FallBack策略子流程EndpointUri
+
+**默认值**: none
+
+已支持的参数值 | 值含义说明
+---|---
+none | 
+allowNull | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+指定allowNull（允许映射为空）
+或实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的降级逻辑的组件名
+```
+---
+##### customItemMapping
+> 自定义订单商品映射子流程EndpointUri
+
+**默认值**: bean:fullItemMappingFacadeImpl?method=queryOutFullItemInfo
+
+已支持的参数值 | 值含义说明
+---|---
+bean:fullItemMappingFacadeImpl?method=queryOutFullItemInfo | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+实现{@link FullItemMappingFacade#queryOutFullItemInfo(com.youzan.cloud.connector.sdk.api.item.model.QueryOutFullItemParam)}的组件名
+```
+---
+##### customItemMappingFallback
+> 自定义订单商品映射关系获取不到时的Fallback策略子流程EndpointUri
+
+**默认值**: none
+
+已支持的参数值 | 值含义说明
+---|---
+none | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+指定allowNull（允许映射为空）
+或实现{@link FullItemMappingFacade#queryOutFullItemInfo(com.youzan.cloud.connector.sdk.api.item.model.QueryOutFullItemParam)}的降级逻辑的组件名
+```
+---
+##### customItemGuideMapping
+> 自定义销售导购映射子流程EndpointUri
+
+**默认值**: bean:guideMappingProviderImpl?method=findValidByYzGuide
+
+已支持的参数值 | 值含义说明
+---|---
+bean:guideMappingProviderImpl?method=findValidByYzGuide | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的组件名
+```
+---
+##### customItemGuideMappingFallback
+> 自定义销售导购获取不到时的FallBack策略子流程EndpointUri
+
+**默认值**: none
+
+已支持的参数值 | 值含义说明
+---|---
+none | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+指定allowNull（允许映射为空）
+或实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的降级逻辑的组件名
+```
+---
+##### customSalesmanMapping
+> 自定义分销员映射子流程EndpointUri
+
+**默认值**: bean:guideMappingProviderImpl?method=findValidByYzGuide
+
+已支持的参数值 | 值含义说明
+---|---
+bean:guideMappingProviderImpl?method=findValidByYzGuide | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的组件名
+```
+---
+##### customSalesmanMappingFallback
+> 自定义分销员获取不到时的FallBack策略子流程EndpointUri
+
+**默认值**: none
+
+已支持的参数值 | 值含义说明
+---|---
+none | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+指定allowNull（允许映射为空）
+或实现{@link GuideMappingProvider#byYzGuide(com.youzan.cloud.connector.sdk.api.guide.model.ByYzGuideQryParam)}的降级逻辑的组件名
+```
+---
+##### customEnrichOrderRefundAmount
+> 自定义退款金额扩展子流程EndpointUri
+
+**默认值**: bean:subOrderFilterImpl?method=doRefundSubOrderFilter
+
+已支持的参数值 | 值含义说明
+---|---
+bean:subOrderFilterImpl?method=doRefundSubOrderFilter | 
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+实现{@link ExchangeEntityEnrichTransform <OrderDetailExchangeEntity>}的组件名
+```
+

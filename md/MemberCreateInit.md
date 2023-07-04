@@ -110,7 +110,20 @@ enable | 打通
 
 ---
 ##### shopGuideMergeRule
-> 导购对齐
+> 服务导购对齐
+
+**默认值**: disable
+
+已支持的参数值 | 值含义说明
+---|---
+disable | 不打通
+enable | 打通
+
+**是否允许自定义实现**: Y
+
+---
+##### cardGuideMergeRule
+> 开卡导购对齐
 
 **默认值**: disable
 

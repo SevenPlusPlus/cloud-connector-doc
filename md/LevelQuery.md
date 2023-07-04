@@ -62,4 +62,18 @@ bean:userMappingProviderImpl?method=byYzUser |
 自定义外部用户映射子流程EndpointUri
 或实现{@link com.youzan.cloud.connector.sdk.api.user.UserMappingProvider#byYzUser(com.youzan.cloud.connector.sdk.api.user.model.ByYzUserQryParam)}的组件名
 ```
+---
+##### isUpdateYzLevelRule
+> 
+
+**默认值**: disable
+
+已支持的参数值 | 值含义说明
+---|---
+disable | 不启用（默认）
+enable | 启用
+查询后是否更新有赞等级
+
+**是否允许自定义实现**: Y
+
 

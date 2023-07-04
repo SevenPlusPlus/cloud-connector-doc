@@ -42,4 +42,16 @@ OutItemUpdate |
 
 **是否允许自定义实现**: Y
 
+---
+##### preprocessNode
+> 预处理节点，作同步阶段三方扩展使用
+
+**默认值**: bean:emptyProducer?method=process
+
+已支持的参数值 | 值含义说明
+---|---
+bean:emptyProducer?method=process | 
+
+**是否允许自定义实现**: Y
+
 

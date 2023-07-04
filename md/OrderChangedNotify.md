@@ -11,7 +11,9 @@
 ---|---|---
 卖家部分发货消息触发 | TradePartlySellerShipMsg | 卖家部分发货消息触发
 卖家发货完成消息触发 | TradeSellerShipMsg | 卖家发货完成消息触发
-订单完成消息触发 | TradeSuccessMsg | 订单完成消息触发
+卖家部分发货消息触发 | TradePartlySellerShipMsg | 卖家部分发货消息触发
+卖家发货完成消息触发 | TradeSellerShipMsg | 卖家发货完成消息触发
+订单关闭 | TradeCloseMsg | 订单关闭消息
 
 ### 场景流程模板配置
 - 模板ID：OrderStatusChangedNotifyRouteTemplate

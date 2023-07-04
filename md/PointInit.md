@@ -10,6 +10,7 @@
 名称 | 标识 | 描述详情
 ---|---|---
 积分正向初始化 | PointInitInvoke | 积分正向初始化
+积分对齐：资产合并后对齐有赞和三方积分 | PointAlignInvoke | 积分对齐：资产合并后对齐有赞和三方积分
 
 ### 场景流程模板配置
 - 模板ID：PointInitRouteTemplate

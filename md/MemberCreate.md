@@ -114,6 +114,20 @@ enable | 打通
 **是否允许自定义实现**: Y
 
 ---
+##### cardguideOpenRule
+> 
+
+**默认值**: disable
+
+已支持的参数值 | 值含义说明
+---|---
+disable | 不打通
+enable | 打通
+是否打通 开卡导购
+
+**是否允许自定义实现**: Y
+
+---
 ##### maxMemberSourceNoneRetryTimes
 > 
 

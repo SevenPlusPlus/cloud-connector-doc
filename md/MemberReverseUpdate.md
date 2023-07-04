@@ -11,6 +11,7 @@
 ---|---|---
 逆向会员更新 | MemberReverseUpdateRest | 逆向会员更新
 逆向会员更新回流 | MemberReverseUpdateBackflow | 逆向会员更新回流
+逆向会员更新回流 | MemberReverseUpdateBackFlow | 逆向会员更新回流
 
 ### 场景流程模板配置
 - 模板ID：MemberReverseUpdateRouteTemplate
@@ -60,6 +61,19 @@ true | 是
 ---
 ##### isUpdateGuideRelation
 > 是否修改导购关系
+
+**默认值**: false
+
+已支持的参数值 | 值含义说明
+---|---
+false | 否
+true | 是
+
+**是否允许自定义实现**: Y
+
+---
+##### isCompareYzDateRelation
+> 是否比对有赞成为会员时间和成为客户时间
 
 **默认值**: false
 

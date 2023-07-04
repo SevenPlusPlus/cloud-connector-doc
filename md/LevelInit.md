@@ -11,6 +11,7 @@
 ---|---|---
 等级初始化 | LevelInitInvoke | 等级初始化
 逆向等级初始化 | LevelReverseInitInvoke | 逆向等级初始化
+等级对齐：资产合并后对齐有赞和三方等级 | LevelAlignInvoke | 等级对齐：资产合并后对齐有赞和三方等级
 
 ### 场景流程模板配置
 - 模板ID：LevelInitRouteTemplate
@@ -57,7 +58,7 @@ LevelInitTemplateYzTemplate-alpha | 等级初始化模版
 
 **定制示例**:
 ```
-调用三方修改等级
+调用三方查询等级
 ```
 ---
 ##### customPreFilterPredicate

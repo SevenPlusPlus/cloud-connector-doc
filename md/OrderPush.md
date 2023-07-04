@@ -11,8 +11,7 @@
 ---|---|---
 订单支付完成消息触发 | TradePaidMsg | 订单支付完成消息触发
 买家付款(即商家待发货)消息触发 | TradeBuyerPayMsg | 买家付款(即商家待发货)消息触发
-卖家部分发货消息触发 | TradePartlySellerShipMsg | 卖家部分发货消息触发
-卖家发货完成消息触发 | TradeSellerShipMsg | 卖家发货完成消息触发
+订单完成消息触发 | TradeSuccessMsg | 订单完成消息触发
 订单完成消息触发 | TradeSuccessMsg | 订单完成消息触发
 
 ### 场景流程模板配置
@@ -134,11 +133,11 @@ none |
 ##### customSalesGuideMapping
 > 自定义销售导购映射子流程EndpointUri
 
-**默认值**: bean:guideMappingProviderImpl?method=byYzGuide
+**默认值**: bean:guideMappingProviderImpl?method=findValidByYzGuide
 
 已支持的参数值 | 值含义说明
 ---|---
-bean:guideMappingProviderImpl?method=byYzGuide | 
+bean:guideMappingProviderImpl?method=findValidByYzGuide | 
 
 **是否允许自定义实现**: Y
 
@@ -169,11 +168,11 @@ none |
 ##### customServicesGuideMapping
 > 自定义专属导购映射子流程EndpointUri
 
-**默认值**: bean:guideMappingProviderImpl?method=byYzGuide
+**默认值**: bean:guideMappingProviderImpl?method=findValidByYzGuide
 
 已支持的参数值 | 值含义说明
 ---|---
-bean:guideMappingProviderImpl?method=byYzGuide | 
+bean:guideMappingProviderImpl?method=findValidByYzGuide | 
 
 **是否允许自定义实现**: Y
 
@@ -256,11 +255,11 @@ none |
 ##### customItemGuideMapping
 > 自定义销售导购映射子流程EndpointUri
 
-**默认值**: bean:guideMappingProviderImpl?method=byYzGuide
+**默认值**: bean:guideMappingProviderImpl?method=findValidByYzGuide
 
 已支持的参数值 | 值含义说明
 ---|---
-bean:guideMappingProviderImpl?method=byYzGuide | 
+bean:guideMappingProviderImpl?method=findValidByYzGuide | 
 
 **是否允许自定义实现**: Y
 
@@ -291,11 +290,11 @@ none |
 ##### customSalesmanMapping
 > 自定义分销员映射子流程EndpointUri
 
-**默认值**: bean:guideMappingProviderImpl?method=byYzGuide
+**默认值**: bean:guideMappingProviderImpl?method=findValidByYzGuide
 
 已支持的参数值 | 值含义说明
 ---|---
-bean:guideMappingProviderImpl?method=byYzGuide | 
+bean:guideMappingProviderImpl?method=findValidByYzGuide | 
 
 **是否允许自定义实现**: Y
 

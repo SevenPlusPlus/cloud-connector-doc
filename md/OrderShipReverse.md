@@ -21,7 +21,7 @@
 
 ---
 ##### yzOrderShipUri
-> 
+> 有赞快递发货标准流程EndpointUri
 
 **默认值**: OrderShipReverseYzTemplate-alpha
 
@@ -33,7 +33,7 @@ OrderShipReverseYzTemplate-alpha |
 
 ---
 ##### customExpressRelationMapping
-> 
+> 自定义物流映射子流程EndpointUri
 
 **默认值**: bean:expressMappingProviderImpl?method=byOutExpressId
 
@@ -45,7 +45,7 @@ bean:expressMappingProviderImpl?method=byOutExpressId |
 
 ---
 ##### customExpressRelationMappingFallback
-> 
+> 自定义物流映射获取不到时的Fallback策略子流程EndpointUri
 
 **默认值**: none
 
@@ -55,9 +55,14 @@ none |
 
 **是否允许自定义实现**: Y
 
+
+**定制示例**:
+```
+指定allowNull（允许映射为空）
+```
 ---
 ##### yzOutBoundFetchUri
-> 
+> 自定义出库单转换子流程EndpointUri
 
 **默认值**: bean:emptyProducer?method=process
 

@@ -2,7 +2,7 @@
 
 ## 会员正向换绑
 - 标识：MemberChangeBind
-- 交换实体：com.youzan.cloud.connector.sdk.core.scrm.MemberRebindExchange
+- 交换实体：com.youzan.cloud.connector.sdk.core.scrm.MemberChangeExchangeEntity
 ### 场景说明
 会员正向换绑
 ### 场景流程入口
@@ -81,28 +81,16 @@ none | 无业务逻辑处理
 **是否允许自定义实现**: Y
 
 ---
-##### mergeAssetRuleStrategyUri
+##### mergePropertyRuleStrategyUri
 > 资产合并规则：如何资产合并
 
-**默认值**: mergeAssetRuleManmade
+**默认值**: mergePropertyRuleManmade
 
 已支持的参数值 | 值含义说明
 ---|---
-mergeAssetRuleManmade | 人工合并
-mergeAssetRuleTripartite | 调用三方接口合并
-mergeAssetRuleipass | 连接器侧处理合并
-
-**是否允许自定义实现**: Y
-
----
-##### subMemberCreateUri
-> 会员创建uri
-
-**默认值**: MemberCreate
-
-已支持的参数值 | 值含义说明
----|---
-MemberCreate | 会员创建
+mergePropertyRuleManmade | 人工合并
+mergePropertyRuleTripartite | 调用三方接口合并
+mergePropertyRuleIpass | 连接器侧处理合并
 
 **是否允许自定义实现**: Y
 
