@@ -19,4 +19,5 @@ com.youzan.cloud.connector.sdk.core.trade.basic
 com.youzan.cloud.connector.sdk.core.trade.enums
 com.youzan.cloud.connector.sdk.core.valuecard
 com.youzan.cloud.connector.sdk.core.valuecard.recharge
+com.youzan.cloud.connector.sdk.core.valuecard.reverse
 com.youzan.cloud.connector.sdk.core.voucher
