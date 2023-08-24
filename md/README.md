@@ -154,6 +154,8 @@
 * [商品删除](ItemDelete.md)
 
 ### voucher
+* [券列表查询](VoucherQuery.md)
+
 * [券详情查询](VoucherDetailQuery.md)
 
 * [券核销](VoucherVerify.md)
@@ -210,6 +212,14 @@
 
 * [优惠券逆向回收REST接口](VoucherRecycleReverseRest.md)
 
+* [优惠券发放逆向接口调用(仅有赞发券)](VoucherOnlySendReverseRest.md)
+
+* [有赞券逆向退券REST](VoucherReverseVerifyRefund.md)
+
+* [优惠券正向转赠](VoucherHandSel.md)
+
+* [](.md)
+
 ### valuecard
 * [储值卡列表](ValueCardListQuery.md)
 
@@ -242,4 +252,24 @@
 * [储值卡领取](ValueCardTake.md)
 
 * [储值卡激活](ValueCardActivate.md)
+
+* [外部储值流水回写至有赞](ValueCardFlowDetailReverse.md)
+
+* [用户储值流水失败处理](ValueCardUserFlowFailed.md)
+
+* [修复用户B端储值流水](ValueCardFixFlowDetail.md)
+
+* [储值卡查询逆向](ValueCardQueryReverse.md)
+
+* [储值卡支付逆向](ValueCardPayReverse.md)
+
+* [储值卡支付结果查询逆向](ValueCardPayQueryReverse.md)
+
+* [储值卡退款逆向](ValueCardRefundReverse.md)
+
+* [储值卡退款结果查询逆向](ValueCardRefundQueryReverse.md)
+
+* [储值卡购卡中心](ValueCardDetailBuyCenter.md)
+
+* [](.md)
 

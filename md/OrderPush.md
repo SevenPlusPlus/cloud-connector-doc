@@ -11,8 +11,6 @@
 ---|---|---
 订单支付完成消息触发 | TradePaidMsg | 订单支付完成消息触发
 买家付款(即商家待发货)消息触发 | TradeBuyerPayMsg | 买家付款(即商家待发货)消息触发
-订单完成消息触发 | TradeSuccessMsg | 订单完成消息触发
-订单完成消息触发 | TradeSuccessMsg | 订单完成消息触发
 
 ### 场景流程模板配置
 - 模板ID：OrderPushRouteTemplate
@@ -24,6 +22,15 @@
 ---
 ##### tripartiteCreateOrderUri
 > 调用三方保存订单
+
+**参数为必填项**
+
+
+**是否允许自定义实现**: Y
+
+---
+##### tripartiteOrderQueryUri
+> 
 
 **参数为必填项**
 

@@ -140,4 +140,28 @@ bean:itemImageComponentImpl?method=getOrUploadItemImageList |
 补充图片imageId子流程EndpointUri
 或实现{@link com.youzan.cloud.connector.sdk.api.item.ItemImageComponent#getOrUploadItemImageList(ItemImageIdUploadParam)}的组件名
 ```
+---
+##### createIfNotExist
+> 
+
+**默认值**: false
+
+已支持的参数值 | 值含义说明
+---|---
+false | 
+
+**是否允许自定义实现**: Y
+
+---
+##### ITEM_CREATE_URI
+> 
+
+**默认值**: OutItemCreate
+
+已支持的参数值 | 值含义说明
+---|---
+OutItemCreate | 
+
+**是否允许自定义实现**: Y
+
 

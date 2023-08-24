@@ -30,4 +30,13 @@ VoucherSendReverseYzTemplate-alpha | 有赞标准流程实现alpha版本
 
 **是否允许自定义实现**: Y
 
+---
+##### tripartiteCouponQueryTemplateUri
+> 
+
+**参数为必填项**
+
+
+**是否允许自定义实现**: Y
+
 

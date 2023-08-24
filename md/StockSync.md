@@ -14,7 +14,7 @@
 ### 场景流程模板配置
 - 模板ID：StockSynchronizer
 - 模板类：com.youzan.cloud.connector.sdk.template.stock.StockSynchronizer
-- 模板参数类：com.youzan.cloud.connector.sdk.template.stock.StockSynchronizer$TemplateParameters
+- 模板参数类：com.youzan.cloud.connector.sdk.template.BaseTemplateParameter
 
 #### 配置参数列表
 

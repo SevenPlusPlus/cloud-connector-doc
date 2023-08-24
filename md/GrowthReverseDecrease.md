@@ -23,11 +23,11 @@
 ##### tripartiteFetchUri
 > 拉取三方成长值（实现拉取成长值变动记录并转换有赞标准交换实体的子流程）
 
-**默认值**: mock:doNothing
+**默认值**: bean:emptyProducer?method=process
 
 已支持的参数值 | 值含义说明
 ---|---
-mock:doNothing | 无业务逻辑处理
+bean:emptyProducer?method=process | 无业务逻辑处理
 
 **是否允许自定义实现**: Y
 

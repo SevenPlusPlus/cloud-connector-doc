@@ -33,6 +33,20 @@
 实现三方系统券核销操作，依赖数据从交换实体中获取
 ```
 ---
+##### tripartiteVoucherTemplateQueryTemplateUri
+> 调用三方查询券模版（券活动）
+
+**参数为必填项**
+
+
+**是否允许自定义实现**: Y
+
+
+**定制示例**:
+```
+三方券模版查询，依赖数据从交换实体中获取
+```
+---
 ##### yzVoucherTemplatePushUri
 > 有赞优惠券模版推送子流程EndpointURI或子流程模板参数
 
